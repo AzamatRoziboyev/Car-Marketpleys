@@ -41,6 +41,9 @@ header nav .header-menu {
     display: flex;
     align-items: center;
 }
+header nav .header-menu .home {
+    display: none;
+}
 header nav .header-menu ul  {
     width: 480px;
     height: 45  px;
