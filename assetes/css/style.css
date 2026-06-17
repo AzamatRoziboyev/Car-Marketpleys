@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2;
+}
+/* !======header */
+header {
+    width: 1920px;
+    height: 945px;
+    border: 3px solid red;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url(/assetes/img/car.jpg) center/cover no-repeat;
+}
