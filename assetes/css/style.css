@@ -9,5 +9,15 @@ header {
     width: 1920px;
     height: 945px;
     border: 3px solid red;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url(/assetes/img/car.jpg) center/cover no-repeat;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url(/assetes/img/car.jpg);
+}
+header nav {
+    width: 1920px;
+    height: 103px;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
 }
