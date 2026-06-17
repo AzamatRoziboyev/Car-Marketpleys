@@ -21,3 +21,13 @@ header nav {
     align-items: center;
     color: white;
 }
+header nav .carhut {
+    width: 994px;
+    height: 26px;
+    border: 1px solid black;
+    font-size: 25px;
+}
+header nav .carhut a {
+    color: white;
+    text-decoration: none;
+}
