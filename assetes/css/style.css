@@ -46,10 +46,30 @@ header nav .header-menu {
     display: flex;
     align-items: center;
 }
-
-header nav .header-menu .home {
-    display: none;
+header nav .header-menu ul li:hover .home {
+    display: block;
 }
+header .home {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 1100px;
+    bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+
+}
+header .home a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 
 header nav .header-menu ul {
     width: 480px;
