@@ -115,8 +115,49 @@ header .box {
     align-items: center;
 
 }
+header .box h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
 header .box .div {
     width: 930px;
     height: 130px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+header .box .div .all {
+    width: 930px;
+    height: 34px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+header .box .div .all p {
+    border-bottom: 1px solid white;
+    padding: 4px;
+}
+/* *new */
+header .box .new {
+    width: 930px;
+    height: 75px;
+    background-color: white;
+    border-radius: 80px;
+    color: black;
+    padding: 15px;
+}
+header .box .new .any {
+    width: 164px;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid gray;
+    align-items: center;
+}
+header .box .new .any i {
+    font-size: 10px;
+}
+
