@@ -204,7 +204,60 @@ header .box span {
 }
 /* *div2 */
 header .box .div1 {
-    width: 740px;
+    width: 745px;
     height: 44px;
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
+header .box .div1 .d1 {
+    width: 122px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.2);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header .box .div1 .d2 {
+    width: 142px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.2);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header .box .div1 .d3 {
+    width: 174px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.2);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+header .box .div1 .d4 {
+    width: 144px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.2);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+header .box .div1 .d5 {
+    width: 144px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.2);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
