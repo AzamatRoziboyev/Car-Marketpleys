@@ -16,7 +16,6 @@ header {
 header nav {
     width: 1920px;
     height: 103px;
-    border: 2px solid black;
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
@@ -103,44 +102,49 @@ header nav .header-actions button:hover {
     border-radius: 12px;
     transition: 1s;
 }
+
 /* *=========box========== */
 header .box {
     width: 930px;
-    height: 500px;
-    border: 1px solid black;
+    height: 400px;
     color: white;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
 
 }
+
 header .box h1 {
     font-size: 65px;
     font-weight: bold;
 }
+
 header .box .div {
     width: 930px;
     height: 130px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 header .box .div .all {
     width: 930px;
     height: 34px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
 }
+
 header .box .div .all p {
     border-bottom: 1px solid white;
     padding: 4px;
 }
+
 /* *new */
 header .box .new {
     width: 850px;
@@ -153,6 +157,7 @@ header .box .new {
     align-items: center;
     gap: 20px;
 }
+
 /* *any */
 header .box .new .any {
     width: 164px;
@@ -162,9 +167,11 @@ header .box .new .any {
     border-right: 1px solid gray;
     align-items: center;
 }
+
 header .box .new .any i {
     font-size: 10px;
 }
+
 /* *models */
 header .box .new .models {
     width: 214px;
@@ -174,18 +181,21 @@ header .box .new .models {
     align-items: center;
     border-right: 1px solid grey;
 }
+
 header .box .new .p1 {
     width: 75px;
     height: 27px;
     display: flex;
     align-items: center;
 }
+
 header .box .new .p2 {
     width: 154px;
     height: 36px;
     display: flex;
     align-items: center;
 }
+
 /* *button */
 header .box .new button {
     width: 215px;
@@ -197,62 +207,46 @@ header .box .new button {
     font-size: 18px;
 
 }
+
 /* *span */
 header .box span {
     font-size: 15px;
 }
+
 /* *div2 */
 header .box .div1 {
     width: 745px;
     height: 44px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
+
 header .box .div1 .d1 {
     width: 122px;
     height: 44px;
-    background-color: rgba(105, 99, 99, 0.2);
+    background-color: rgba(105, 99, 99, 0.4);
     border-radius: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 header .box .div1 .d2 {
     width: 142px;
     height: 44px;
-    background-color: rgba(105, 99, 99, 0.2);
+    background-color: rgba(105, 99, 99, 0.4);
     border-radius: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 header .box .div1 .d3 {
     width: 174px;
     height: 44px;
-    background-color: rgba(105, 99, 99, 0.2);
-    border-radius: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-header .box .div1 .d4 {
-    width: 144px;
-    height: 44px;
-    background-color: rgba(105, 99, 99, 0.2);
-    border-radius: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-header .box .div1 .d5 {
-    width: 144px;
-    height: 44px;
-    background-color: rgba(105, 99, 99, 0.2);
+    background-color: rgba(105, 99, 99, 0.4);
     border-radius: 44px;
     display: flex;
     justify-content: center;
@@ -260,3 +254,24 @@ header .box .div1 .d5 {
     gap: 15px;
 }
 
+header .box .div1 .d4 {
+    width: 144px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.4);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header .box .div1 .d5 {
+    width: 144px;
+    height: 44px;
+    background-color: rgba(105, 99, 99, 0.4);
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
