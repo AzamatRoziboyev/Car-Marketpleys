@@ -198,3 +198,13 @@ header .box .new button {
     font-size: 18px;
 
 }
+/* *span */
+header .box span {
+    font-size: 15px;
+}
+/* *div2 */
+header .box .div1 {
+    width: 740px;
+    height: 44px;
+    border: 1px solid red;
+}
