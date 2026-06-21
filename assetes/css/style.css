@@ -126,6 +126,7 @@ header .box .div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 header .box .div .all {
     width: 930px;
@@ -142,13 +143,18 @@ header .box .div .all p {
 }
 /* *new */
 header .box .new {
-    width: 930px;
+    width: 850px;
     height: 75px;
     background-color: white;
     border-radius: 80px;
+    
     color: black;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+/* *any */
 header .box .new .any {
     width: 164px;
     height: 36px;
@@ -160,4 +166,35 @@ header .box .new .any {
 header .box .new .any i {
     font-size: 10px;
 }
+/* *models */
+header .box .new .models {
+    width: 214px;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1px solid grey;
+}
+header .box .new .p1 {
+    width: 75px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+}
+header .box .new .p2 {
+    width: 154px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+/* *button */
+header .box .new button {
+    width: 215px;
+    height: 55px;
+    background-color: #405FF2;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    font-size: 18px;
 
+}
