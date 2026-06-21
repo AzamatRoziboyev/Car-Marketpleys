@@ -29,7 +29,6 @@ header nav {
 header nav .carhut {
     width: 994px;
     height: 26px;
-    border: 1px solid black;
     font-size: 25px;
 }
 
@@ -42,39 +41,17 @@ header nav .carhut a {
 header nav .header-menu {
     width: 480px;
     height: 45px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
 }
-header nav .header-menu ul li:hover .home {
-    display: block;
-}
-header .home {
-    width: 100px;
-    height: 100px;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    left: 1100px;
-    bottom: 20px;
-    border-radius: 10px;
-    padding: 5px;
+
+header nav .header-menu .home {
     display: none;
-
 }
-header .home a {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-}
-
 
 header nav .header-menu ul {
     width: 480px;
     height: 45 px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 
@@ -95,7 +72,6 @@ header nav .header-menu ul li a {
 header nav .header-actions {
     width: 233px;
     height: 47px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     display: flex;
@@ -126,4 +102,21 @@ header nav .header-actions button:hover {
     font-size: 20px;
     border-radius: 12px;
     transition: 1s;
+}
+/* *=========box========== */
+header .box {
+    width: 930px;
+    height: 500px;
+    border: 1px solid black;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header .box .div {
+    width: 930px;
+    height: 130px;
+    border: 1px solid black;
 }
