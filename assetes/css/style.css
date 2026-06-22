@@ -181,7 +181,9 @@ header .box .new .models {
     align-items: center;
     border-right: 1px solid grey;
 }
-
+header .box .new .models i {
+    font-size: 10px;
+}
 header .box .new .p1 {
     width: 75px;
     height: 27px;
