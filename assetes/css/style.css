@@ -180,9 +180,11 @@ header .box .new .models {
     align-items: center;
     border-right: 1px solid grey;
 }
+
 header .box .new .models i {
     font-size: 10px;
 }
+
 header .box .new .p1 {
     width: 75px;
     height: 27px;
@@ -276,6 +278,7 @@ header .box .div1 .d5 {
     align-items: center;
     gap: 15px;
 }
+
 /* !==========main-1========= */
 /* !========================= */
 .main-1 {
@@ -291,9 +294,11 @@ header .box .div1 .d5 {
     gap: 700px;
     padding: 30px;
 }
+
 .main-1 h2 {
     font-size: 40px;
 }
+
 /* !==========main-2=========== */
 /* !=========================== */
 .main-2 {
@@ -304,12 +309,14 @@ header .box .div1 .d5 {
     justify-content: center;
     padding: 10px;
 }
+
 .main-2 .box1 {
     width: 1430px;
     height: 180px;
     display: flex;
     justify-content: space-between;
 }
+
 .main-2 .box1 div {
     width: 209px;
     height: 180px;
@@ -320,11 +327,13 @@ header .box .div1 .d5 {
     gap: 10px;
     border-radius: 16px;
     box-shadow: 0px 1px 1px 1px #b3adad;
-    
+
 }
+
 .main-2 .box1 div p {
     font-size: 25px;
 }
+
 .main-2 .box1 div img {
     width: 100px;
     height: 100px;
