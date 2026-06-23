@@ -293,5 +293,21 @@ header .box .div1 .d5 {
     padding: 30px;
 }
 .main-1 h2 {
-    font-size: 50px;
+    font-size: 40px;
+}
+/* !==========main-2=========== */
+/* !=========================== */
+.main-2 {
+    width: 1920px;
+    height: 310px;
+    border: 2px solid black;
+    transform: translateY(-70px);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.main-2 .box1 {
+    width: 1430px;
+    height: 180px;
+    border: 1px solid black;
 }
