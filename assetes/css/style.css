@@ -338,3 +338,17 @@ header .box .div1 .d5 {
     width: 100px;
     height: 100px;
 }
+/* !=======.main-3========= */
+/* !======================= */
+.main-3 {
+    width: 1920px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 900px;
+    padding: 10px;
+}
+.main-3 h3 {
+    font-size: 40px;
+}
