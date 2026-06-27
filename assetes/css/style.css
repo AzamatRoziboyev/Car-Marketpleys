@@ -416,8 +416,24 @@ header .box .div1 .d5 {
    justify-content: space-between;
 
 }
+.main-4 .car-list .car-card .img2 {
+    width: 327px;
+    height: 218px;
+    background-image: url(/assetes/img/card2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+
+}
 .main-4 .car-list .car-card .img button, 
-.main-4 .car-list .car-card .img1 button {
+.main-4 .car-list .car-card .img1 button, 
+.main-4 .car-list .car-card .img2 button {
+
     width: 104px;
     height: 29px;
     border: none;
@@ -426,7 +442,8 @@ header .box .div1 .d5 {
     color: white;
 }
 .main-4 .car-list .car-card .img i,
-.main-4 .car-list .car-card .img1 i {
+.main-4 .car-list .car-card .img1 i,
+.main-4 .car-list .car-card .img2 i {
     width: 36px;
     height: 36px;
     border-radius: 50%;
