@@ -357,11 +357,10 @@ header .box .div1 .d5 {
 .main-4 {
     width: 1700px;
     height: 613px;
-    border: 1px solid black;
     margin: auto;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
 .main-4 .box2 {
     width: 1400px;
@@ -378,18 +377,18 @@ header .box .div1 .d5 {
 .main-4 .car-list {
     width: 1700px;
     height: 433px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .main-4 .car-list .car-card {
     width: 328px;
     height: 433px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 3px 2px gray;
     border-radius: 16px;
 }
+/* *img */
 .main-4 .car-list .car-card .img {
-    width: 327px;
+    width: 328px;
     height: 218px;
     background-image: url(/assetes/img/card.jpg);
     background-position: center;
@@ -402,8 +401,9 @@ header .box .div1 .d5 {
    justify-content: space-between;
 
 }
+/* *img1 */
 .main-4 .car-list .car-card .img1 {
-    width: 327px;
+    width: 328px;
     height: 218px;
     background-image: url(/assetes/img/card1.jpg);
     background-position: center;
@@ -416,8 +416,9 @@ header .box .div1 .d5 {
    justify-content: space-between;
 
 }
+/* *img2 */
 .main-4 .car-list .car-card .img2 {
-    width: 327px;
+    width: 328px;
     height: 218px;
     background-image: url(/assetes/img/card2.jpg);
     background-position: center;
@@ -432,9 +433,38 @@ header .box .div1 .d5 {
 }
 /* *img3 */
 .main-4 .car-list .car-card .img3 {
-    width: 327px;
+    width: 328px;
     height: 218px;
     background-image: url(/assetes/img/card2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.main-4 .car-list .car-card .img3 {
+    width: 328px;
+    height: 218px;
+    background-image: url(/assetes/img/card3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+
+}
+/* *img4 */
+.main-4 .car-list .car-card .img4 {
+    width: 328px;
+    height: 218px;
+    background-image: url(/assetes/img/card4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -448,7 +478,8 @@ header .box .div1 .d5 {
 .main-4 .car-list .car-card .img button, 
 .main-4 .car-list .car-card .img1 button, 
 .main-4 .car-list .car-card .img2 button,
-.main-4 .car-list .car-card .img3 button {
+.main-4 .car-list .car-card .img3 button,
+.main-4 .car-list .car-card .img4 button {
 
     width: 104px;
     height: 29px;
@@ -460,7 +491,8 @@ header .box .div1 .d5 {
 .main-4 .car-list .car-card .img i,
 .main-4 .car-list .car-card .img1 i,
 .main-4 .car-list .car-card .img2 i,
-.main-4 .car-list .car-card .img3 i {
+.main-4 .car-list .car-card .img3 i,
+.main-4 .car-list .car-card .img4 i {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -473,7 +505,6 @@ header .box .div1 .d5 {
 .main-4 .car-list .car-card .car-footer {
     width: 327px;
     height: 214px;
-    border: 4px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -526,4 +557,14 @@ header .box .div1 .d5 {
 .main-4 .car-list .car-card .car-footer .car3 span {
     color: #405FF2;
     font-size: 15px;
+}
+/* *button */
+button {
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px gray;
+    font-size: 20px;
 }
