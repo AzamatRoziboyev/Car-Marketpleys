@@ -346,9 +346,42 @@ header .box .div1 .d5 {
     display: flex;
     justify-content: center;
     align-items: end;
-    gap: 900px;
+    gap: 1200px;
     padding: 10px;
 }
 .main-3 h3 {
     font-size: 40px;
+}
+/* !=========main-4======= */
+/* !====================== */
+.main-4 {
+    width: 1700px;
+    height: 613px;
+    border: 1px solid black;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.main-4 .box2 {
+    width: 1400px;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+}
+.main-4 .box2 p {
+    border-bottom: 2px solid #405FF2;
+}
+/* *car-list */
+.main-4 .car-list {
+    width: 1700px;
+    height: 433px;
+    border: 1px solid red;
+}
+.main-4 .car-list .car-card {
+    width: 328px;
+    height: 433px;
+    border: 1px solid black;
 }
