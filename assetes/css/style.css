@@ -645,4 +645,16 @@ header .box .div1 .d5 {
     border: 1px solid black;
     display: flex;
     align-items: center;
+
+}
+.main-5 .get .we div i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 10px;
 }
