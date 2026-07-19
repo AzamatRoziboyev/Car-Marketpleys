@@ -621,6 +621,11 @@ header .box .div1 .d5 {
     width: 867px;
     height: 693px;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:  100px;
+    gap: 25px;
 }
 .main-5 .get h3 {
     width: 597px;
