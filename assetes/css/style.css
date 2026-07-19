@@ -603,3 +603,13 @@ header .box .div1 .d5 {
     margin-top:  70px;
 
 }
+.main-5 .box3 {
+    width: 804px;
+    height: 693px;
+    border: 1px solid black;
+
+}
+.main-5 .box3 video {
+    width: 804px;
+    height: 693px;
+}
