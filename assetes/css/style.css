@@ -601,6 +601,8 @@ header .box .div1 .d5 {
     border: 1px solid black;
     margin: auto;
     margin-top:  70px;
+    display: flex;
+    justify-content: space-between;
 
 }
 .main-5 .box3 {
@@ -613,4 +615,22 @@ header .box .div1 .d5 {
     width: 804px;
     height: 693px;
     border-radius: 15px;
+}
+.main-5 .get {
+    width: 867px;
+    height: 693px;
+    border: 1px solid red;
+}
+.main-5 .get h3 {
+    width: 597px;
+    height: 112px;
+    border: 1px solid black;
+    font-size: 43px;
+}
+.main-5 .get p {
+    width: 583px;
+    height: 55px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
 }
