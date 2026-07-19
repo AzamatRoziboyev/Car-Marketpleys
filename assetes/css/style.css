@@ -592,3 +592,14 @@ header .box .div1 .d5 {
     box-shadow: 0px 0px 2px 1px gray;
     font-size: 20px;
 }
+
+/* !=======main-5====== */
+/* !=================== */
+.main-5 {
+    width: 1700px;
+    height: 723px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top:  70px;
+    
+}
