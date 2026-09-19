@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
 }
 .main header .header-left {
     width: 168px;
@@ -55,9 +54,25 @@
 }
 /* * boton */
 .main header .header-button {
-    width: 441px;
+    width: 301px;
     height: 27px;
+    border: 1px solid;
 
+}
+/* * dark */
+.dark {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.dark:active {
+    transform: scale(0.9);
 }
 .main header .header-button .sign {
     width: 100px;
@@ -85,6 +100,7 @@
     cursor: pointer;
 
 }
+/* ^ sign-katta  */
 .sign-katta {
     width: 100%;
     height: 100vh;
@@ -200,4 +216,34 @@
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+/* * main1 */
+.main1 {
+    width: 1905px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    border: 1px solid black;
+    gap: 1200px;
+    justify-content: center;
+    align-items: end;
+}
+
+.main1 h3 {
+    font-size: 40px;
+}
+/* * main2 */
+.main2 .box2 {
+    width: 1600px;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.main2 .box2 p {
+    border-bottom: 2px solid #405FF2;
 }
