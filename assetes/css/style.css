@@ -233,6 +233,111 @@
     font-size: 40px;
 }
 /* * main2 */
+.main2 {
+    width: 1660px;
+    height: 454px;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+.main2 .main2-box {
+    width: 1660px;
+    height: 274px;
+    border: 1px solid red;
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+}
+.main2 .main2-box .main2-box1 {
+    width: 685px;
+    height: 273px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.main2 .main2-box .main2-box1 img {
+    width: 318px;
+    height: 273px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* ^ container */
+.main2 .main2-box .main2-box1 .container {
+    width: 367px;
+    height: 273px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #373948;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 25px;
+}
+/* ^cross */
+.main2 .main2-box .main2-box1 .container .cross {
+    width: 287px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main2 .main2-box .main2-box1 .container .cross p {
+    font-weight: 700;
+    font-size: 20px;
+}
+/* ^miles */
+.main2 .main2-box .main2-box1 .container .miles {
+    width: 150px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.main2 .main2-box .main2-box1 .container .miles  .div {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+/* ^foter */
+.main2 .main2-box .main2-box1 .container .foter {
+    width: 287px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main2 .main2-box .main2-box1 .container .foter p {
+    font-size: 22px;
+    font-weight: 800;
+}
+/* & ======= main2-footer ========== */
+.main2 .main2-footer {
+    width: 130px;
+    height: 50px;
+    border: 1px solid;
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main2 .main2-footer .left {
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+}
+.main2 .main2-footer .right {
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+}
+
+
+
+
 .main2 .box2 {
     width: 1600px;
     height: 40px;
