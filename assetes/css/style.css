@@ -16,11 +16,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: 1px solid red;
 }
 .main header .header-left {
     width: 168px;
     height: 82px;
-    border: 1px solid black;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -30,7 +30,6 @@
 .main header .header-l {
     width: 466px;
     height: 25px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -42,7 +41,6 @@
 .main header .header-orta {
     width: 480px;
     height: 45px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +69,6 @@
 .main header .header-right {
     width: 142px;
     height: 47px;
-    border: 1px solid black;
 
 }
 .main header .header-right .sign-up {
@@ -83,4 +80,50 @@
     background-color: transparent;
     color: white;
 
+}
+.main .main-box {
+    width: 1705px;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.main .main-box1 {
+    width: 500px;
+    height: 246px;
+    color: white;
+
+}
+.main .main-box1 p {
+    font-size: 35px;
+    font-weight: 700;
+}
+.main .main-box1 h2 {
+    font-size: 55px;
+}
+.main .main-box2 {
+    width: 275px;
+    height: 624px;
+    background-color: rgba(231, 228, 228, 0.2);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+
+}
+.main .main-box2 i {
+    font-size: 30px;
+
+}
+.main .main-box2 .more {
+    width: 165px;
+    height: 116px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
