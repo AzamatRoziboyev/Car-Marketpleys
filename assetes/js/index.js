@@ -19,7 +19,7 @@ signUp.addEventListener("click", () => {
 })
 
 // !======main2
-const main2Box1length = main2Box1.length // kartalar uzunligi
+const cardlength = main2Box1.length // kartalar uzunligi
 
 
 let hisoblagich = 0;
@@ -27,7 +27,7 @@ let hisoblagich = 0;
 const cardWidth = 210;
 
 left.addEventListener("click", () => {
-    if(hisoblagich < main2Box1length -1) {
+    if(hisoblagich < cardlength) {
         hisoblagich++;
         updateCarousel();
     }
