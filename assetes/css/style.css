@@ -26,6 +26,7 @@
     align-items: center;
     padding: 10px;
     font-size: 25px;
+    cursor: pointer;
 }
 .main header .header-l {
     width: 466px;
@@ -33,6 +34,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 .main header .header-l i {
     font-size: 17px;
@@ -64,6 +66,7 @@
     background-color: transparent;
     border: none;
     color: white;
+    cursor: pointer;
 }
 /* * header-right */
 .main header .header-right {
@@ -79,8 +82,76 @@
     font-size: 15px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 
 }
+.sign-katta {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.sign-katta.active {
+    display: flex;
+}
+.sign-katta .sign-kichik {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sign-katta .sign-kichik .h3 {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-katta .sign-kichik .h3 h3 {
+    font-size: 25px;
+}
+.sign-katta .sign-kichik .h3 .sign-close {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.sign-katta .sign-kichik .label {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sign-katta .sign-kichik .label input {
+    width: 260px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.sign-katta .sign-kichik .sumbit {
+    width: 260px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* * main-box */
 .main .main-box {
     width: 1705px;
     height: 700px;
@@ -94,6 +165,9 @@
     width: 500px;
     height: 246px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
 }
 .main .main-box1 p {
@@ -101,7 +175,7 @@
     font-weight: 700;
 }
 .main .main-box1 h2 {
-    font-size: 55px;
+    font-size: 65px;
 }
 .main .main-box2 {
     width: 275px;
