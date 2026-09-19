@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.main {
+    width: 1905px;
+    height: 960px;
+    background-image:  url(/assetes/img/fon.jpg);
+}
+.main header {
+    width: 1905px;
+    height: 103px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main header .header-left {
+    width: 168px;
+    height: 82px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.main header .header-l {
+    width: 466px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main header .header-l i {
+    font-size: 17px;
+}
+/* * orta */
+.main header .header-orta {
+    width: 480px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.main header .header-orta a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* * boton */
+.main header .header-button {
+    width: 441px;
+    height: 27px;
+
+}
+.main header .header-button .sign {
+    width: 100px;
+    height: 27px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+/* * header-right */
+.main header .header-right {
+    width: 142px;
+    height: 47px;
+    border: 1px solid black;
+
+}
+.main header .header-right .sign-up {
+    width: 142px;
+    height: 47px;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+
+}
