@@ -264,6 +264,7 @@
 .main2 .main2-box .main2-box1 {
     width: 685px;
     height: 273px;
+    flex-shrink: 0;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
