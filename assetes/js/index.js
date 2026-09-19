@@ -27,14 +27,14 @@ let hisoblagich = 0;
 const cardWidth = 710;
 
 left.addEventListener("click", () => {
-    if(hisoblagich < main2Box1length -1) {
-        hisoblagich++;
+    if(hisoblagich > 0) {
+        hisoblagich--;
         updateCarousel();
     }
 })
 right.addEventListener("click", () => {
-    if(hisoblagich > 0) {
-        hisoblagich--;
+    if(hisoblagich < main2Box1length -1) {
+        hisoblagich++;
         updateCarousel();
     }
 })

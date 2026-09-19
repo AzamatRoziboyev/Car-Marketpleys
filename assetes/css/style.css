@@ -289,6 +289,8 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px 25px;
+    border: 1px solid green;
+    
 }
 /* ^cross */
 .main2 .main2-box .main2-box1 .container .cross {
