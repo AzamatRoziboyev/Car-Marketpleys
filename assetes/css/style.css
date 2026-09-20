@@ -259,7 +259,7 @@
     border: 1px solid red;
     display: flex;
     gap: 25px;
-    overflow: hidden;
+    overflow: visible;
 }
 .main2 .main2-box .main2-box1 {
     width: 685px;
