@@ -436,7 +436,6 @@
 .main5 .main5-box1 {
     width: 1400px;
     height: 348px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
 }
