@@ -4,11 +4,13 @@
     box-sizing: border-box;
     transition: 1s;
 }
+
 .main {
     width: 1905px;
     height: 960px;
-    background-image:  url(/assetes/img/fon.jpg);
+    background-image: url(/assetes/img/fon.jpg);
 }
+
 .main header {
     width: 1905px;
     height: 103px;
@@ -17,6 +19,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .main header .header-left {
     width: 168px;
     height: 82px;
@@ -27,6 +30,7 @@
     font-size: 25px;
     cursor: pointer;
 }
+
 .main header .header-l {
     width: 466px;
     height: 25px;
@@ -35,9 +39,11 @@
     gap: 5px;
     cursor: pointer;
 }
+
 .main header .header-l i {
     font-size: 17px;
 }
+
 /* * orta */
 .main header .header-orta {
     width: 480px;
@@ -47,11 +53,13 @@
     align-items: center;
     padding: 5px;
 }
+
 .main header .header-orta a {
     color: white;
     text-decoration: none;
     font-size: 17px;
 }
+
 /* * boton */
 .main header .header-button {
     width: 301px;
@@ -59,6 +67,7 @@
     border: 1px solid;
 
 }
+
 /* * dark */
 .dark {
     width: 50px;
@@ -71,9 +80,11 @@
     background-color: transparent;
     cursor: pointer;
 }
+
 .dark:active {
     transform: scale(0.9);
 }
+
 .main header .header-button .sign {
     width: 100px;
     height: 27px;
@@ -83,12 +94,14 @@
     color: white;
     cursor: pointer;
 }
+
 /* * header-right */
 .main header .header-right {
     width: 142px;
     height: 47px;
 
 }
+
 .main header .header-right .sign-up {
     width: 142px;
     height: 47px;
@@ -100,6 +113,7 @@
     cursor: pointer;
 
 }
+
 /* ^ sign-katta  */
 .sign-katta {
     width: 100%;
@@ -111,9 +125,11 @@
     justify-content: center;
     align-items: center;
 }
+
 .sign-katta.active {
     display: flex;
 }
+
 .sign-katta .sign-kichik {
     width: 300px;
     height: 300px;
@@ -125,6 +141,7 @@
     justify-content: center;
     gap: 10px;
 }
+
 .sign-katta .sign-kichik .h3 {
     width: 260px;
     height: 40px;
@@ -132,9 +149,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .sign-katta .sign-kichik .h3 h3 {
     font-size: 25px;
 }
+
 .sign-katta .sign-kichik .h3 .sign-close {
     width: 25px;
     height: 25px;
@@ -143,6 +162,7 @@
     background-color: transparent;
     cursor: pointer;
 }
+
 .sign-katta .sign-kichik .label {
     width: 260px;
     height: 55px;
@@ -150,12 +170,14 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .sign-katta .sign-kichik .label input {
     width: 260px;
     height: 30px;
     font-size: 15px;
     padding: 0 10px;
 }
+
 .sign-katta .sign-kichik .sumbit {
     width: 260px;
     height: 30px;
@@ -167,6 +189,7 @@
     cursor: pointer;
 
 }
+
 /* * main-box */
 .main .main-box {
     width: 1705px;
@@ -177,6 +200,7 @@
     justify-content: space-between;
     padding: 50px;
 }
+
 .main .main-box1 {
     width: 500px;
     height: 246px;
@@ -186,13 +210,16 @@
     gap: 15px;
 
 }
+
 .main .main-box1 p {
     font-size: 35px;
     font-weight: 700;
 }
+
 .main .main-box1 h2 {
     font-size: 65px;
 }
+
 .main .main-box2 {
     width: 275px;
     height: 624px;
@@ -204,10 +231,12 @@
     padding: 50px;
 
 }
+
 .main .main-box2 i {
     font-size: 30px;
 
 }
+
 .main .main-box2 .more {
     width: 165px;
     height: 116px;
@@ -217,6 +246,7 @@
     justify-content: center;
     padding: 15px;
 }
+
 /* * main1 */
 .main1 {
     width: 1905px;
@@ -232,6 +262,7 @@
 .main1 h3 {
     font-size: 40px;
 }
+
 /* * main2 */
 .main2 {
     width: 1660px;
@@ -239,6 +270,7 @@
     border: 1px solid black;
     margin: 25px auto;
 }
+
 .main2 .box2 {
     width: 1600px;
     height: 40px;
@@ -252,6 +284,7 @@
 .main2 .box2 p {
     border-bottom: 2px solid #405FF2;
 }
+
 /* * main2-box */
 .main2 .main2-box {
     width: 1660px;
@@ -261,6 +294,7 @@
     gap: 25px;
     overflow: hidden;
 }
+
 /* * main2-box1 */
 .main2 .main2-box .main2-box1 {
     width: 685px;
@@ -278,6 +312,7 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 /* ^ container */
 .main2 .main2-box .main2-box1 .container {
     width: 367px;
@@ -289,8 +324,9 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px 25px;
-    
+
 }
+
 /* ^cross */
 .main2 .main2-box .main2-box1 .container .cross {
     width: 287px;
@@ -299,10 +335,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main2 .main2-box .main2-box1 .container .cross p {
     font-weight: 700;
     font-size: 20px;
 }
+
 /* ^miles */
 .main2 .main2-box .main2-box1 .container .miles {
     width: 150px;
@@ -311,13 +349,15 @@
     flex-direction: column;
     gap: 17px;
 }
-.main2 .main2-box .main2-box1 .container .miles  .div {
+
+.main2 .main2-box .main2-box1 .container .miles .div {
     width: 120px;
     height: 30px;
     display: flex;
     font-size: 20px;
     gap: 10px;
 }
+
 /* ^foter */
 .main2 .main2-box .main2-box1 .container .foter {
     width: 287px;
@@ -326,10 +366,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .main2 .main2-box .main2-box1 .container .foter p {
     font-size: 22px;
     font-weight: 800;
 }
+
 /* & ======= main2-footer ========== */
 .main2 .main2-footer {
     width: 130px;
@@ -339,6 +381,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .main2 .main2-footer .left {
     width: 60px;
     height: 40px;
@@ -347,6 +390,7 @@
     border: 1px solid #E9E9E9;
     background-color: transparent;
 }
+
 .main2 .main2-footer .right {
     width: 60px;
     height: 40px;
@@ -355,6 +399,7 @@
     border: 1px solid #E9E9E9;
     background-color: transparent;
 }
+
 /* *============ main3 ========== */
 .main3 {
     width: 1800px;
@@ -369,19 +414,21 @@
 
 
 }
+
 .main3 h3 {
     font-size: 45px;
     display: flex;
-    
+
 }
 
 .main3 .main3-box {
-    width: 1400px ;
+    width: 1400px;
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .main3 .main3-box .box1 {
     width: 270px;
     height: 150px;
@@ -389,15 +436,18 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main3 .main3-box .box1 img {
     width: 60px;
     height: 60px;
 
 }
+
 .main3 .main3-box .box1 p {
     font-size: 20px;
     font-weight: 800;
 }
+
 /* * main4 */
 .main4 {
     width: 1905px;
@@ -423,22 +473,26 @@
     justify-content: space-between;
 
 }
+
 .main5 .main5-box {
     width: 1400px;
     height: 349px;
     display: flex;
     justify-content: space-between;
 }
+
 .main5 .main5-box img {
     width: 685px;
     height: 349px;
 }
+
 .main5 .main5-box1 {
     width: 1400px;
     height: 348px;
     display: flex;
     justify-content: space-between;
 }
+
 .main5 .main5-box1 img {
     width: 446px;
     height: 348px;
