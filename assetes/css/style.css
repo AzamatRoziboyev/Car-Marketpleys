@@ -355,5 +355,48 @@
     border: 1px solid #E9E9E9;
     background-color: transparent;
 }
+/* *============ main3 ========== */
+.main3 {
+    width: 1800px;
+    height: 489px;
+    border: 1px solid ;
+    margin: 50px auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 100px;
 
 
+}
+.main3 h3 {
+    font-size: 45px;
+    display: flex;
+    
+}
+
+.main3 .main3-box {
+    width: 1400px ;
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main3 .main3-box .box1 {
+    width: 270px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main3 .main3-box .box1 img {
+    width: 60px;
+    height: 60px;
+
+}
+.main3 .main3-box .box1 p {
+    font-size: 20px;
+    font-weight: 800;
+}
