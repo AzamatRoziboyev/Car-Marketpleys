@@ -359,13 +359,13 @@
 .main3 {
     width: 1800px;
     height: 489px;
-    border: 1px solid ;
     margin: 50px auto;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    gap: 25px;
     padding: 100px;
+    background-color: #F9FBFC;
+    border-radius: 10px;
 
 
 }
@@ -378,7 +378,6 @@
 .main3 .main3-box {
     width: 1400px ;
     height: 200px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -386,7 +385,6 @@
 .main3 .main3-box .box1 {
     width: 270px;
     height: 150px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -399,4 +397,18 @@
 .main3 .main3-box .box1 p {
     font-size: 20px;
     font-weight: 800;
+}
+/* * main4 */
+.main4 {
+    width: 1905px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    gap: 1200px;
+    justify-content: center;
+    align-items: end;
+}
+
+.main4 h3 {
+    font-size: 40px;
 }
