@@ -253,14 +253,16 @@
 .main2 .box2 p {
     border-bottom: 2px solid #405FF2;
 }
+/* * main2-box */
 .main2 .main2-box {
     width: 1660px;
     height: 274px;
     border: 1px solid red;
     display: flex;
     gap: 25px;
-    overflow: visible;
+    overflow: hidden;
 }
+/* * main2-box1 */
 .main2 .main2-box .main2-box1 {
     width: 685px;
     height: 273px;
