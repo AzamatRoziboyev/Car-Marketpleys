@@ -19,31 +19,30 @@ const left = document.getElementById("left")
 const right = document.getElementById("right")
 const main2Box1 = document.querySelectorAll(".main2-box1")
 // !======main2
-const main2Box1length = main2Box1.length // kartalar uzunligi
-
-
 let hisoblagich = 0;
 
 const cardWidth = 710;
 
+// LEFT — keyingi kartaga
 left.addEventListener("click", () => {
-    if(hisoblagich > 0) {
-        hisoblagich--;
-        updateCarousel();
-    }
-})
-right.addEventListener("click", () => {
-    if(hisoblagich < main2Box1length -1) {
+    if (hisoblagich < main2Box1.length - 2) {
         hisoblagich++;
         updateCarousel();
     }
-})
+});
+
+// RIGHT — oldingi kartaga
+right.addEventListener("click", () => {
+    if (hisoblagich > 0) {
+        hisoblagich--;
+        updateCarousel();
+    }
+});
 
 function updateCarousel() {
-    // Yo'lakni chapga surish (minus qiymat)
-    const moveAmount = -hisoblagich * cardWidth
-    // CSS transform  orqali hatrakatlantirish
-    main2Box.style.transform = `translateX(${moveAmount}px)`
+    const moveAmount = hisoblagich * cardWidth;
+
+    main2Box.style.transform = `translateX(-${moveAmount}px)`;
 }
 
 
