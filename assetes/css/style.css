@@ -412,3 +412,36 @@
 .main4 h3 {
     font-size: 40px;
 }
+
+/* * main5 */
+.main5 {
+    width: 1400px;
+    height: 728px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main5 .main5-box {
+    width: 1400px;
+    height: 349px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.main5 .main5-box img {
+    width: 685px;
+    height: 349px;
+}
+.main5 .main5-box1 {
+    width: 1400px;
+    height: 348px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.main5 .main5-box1 img {
+    width: 446px;
+    height: 348px;
+}
