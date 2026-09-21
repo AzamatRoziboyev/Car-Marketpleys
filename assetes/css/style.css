@@ -496,3 +496,17 @@
     width: 446px;
     height: 348px;
 }
+/* * main6 */
+.main6 {
+    width: 1905px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    gap: 1200px;
+    justify-content: center;
+    align-items: end;
+}
+
+.main6 h3 {
+    font-size: 40px;
+}
