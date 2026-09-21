@@ -130,57 +130,59 @@
 }
 
 .sign-katta .sign-kichik {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 600px;
     background-color: white;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 17px;
 }
 
 .sign-katta .sign-kichik .h3 {
-    width: 260px;
-    height: 40px;
+    width: 460px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .sign-katta .sign-kichik .h3 h3 {
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .sign-katta .sign-kichik .h3 .sign-close {
-    width: 25px;
-    height: 25px;
-    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
 .sign-katta .sign-kichik .label {
-    width: 260px;
-    height: 55px;
+    width: 460px;
+    height: 85px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
+.sign-katta .sign-kichik .label  label {
+    font-size: 25px;
+}
 .sign-katta .sign-kichik .label input {
-    width: 260px;
-    height: 30px;
+    width: 460px;
+    height: 50px;
     font-size: 15px;
     padding: 0 10px;
 }
 
 .sign-katta .sign-kichik .sumbit {
-    width: 260px;
-    height: 30px;
-    font-size: 17px;
+    width: 460px;
+    height: 40px;
+    font-size: 20px;
     border: none;
     background-color: green;
     color: white;
@@ -268,6 +270,8 @@
     height: 454px;
     border: 1px solid black;
     margin: 25px auto;
+    overflow: hidden;
+
 }
 
 .main2 .box2 {
@@ -288,10 +292,9 @@
 .main2 .main2-box {
     width: 1660px;
     height: 274px;
-    border: 1px solid red;
     display: flex;
     gap: 25px;
-    overflow: hidden;
+    padding: 0px 10px;
 }
 
 /* * main2-box1 */
