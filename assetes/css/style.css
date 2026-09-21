@@ -465,7 +465,7 @@
     font-size: 40px;
 }
 
-/* * main5 */
+/* * ============== main5 */
 .main5 {
     width: 1400px;
     height: 728px;
@@ -499,26 +499,27 @@
     width: 446px;
     height: 348px;
 }
-/* * main6 */
+/* *==================== main6 */
 .main6 {
-    width: 1905px;
+    width: 1555px;
     height: 90px;
     margin: 50px auto;
     display: flex;
-    gap: 1200px;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main6 h3 {
     font-size: 40px;
 }
-/* * main7 */
+/* * =============== main7 */
 .main7 {
     width: 1555px;
-    height: 300px;
+    height: 280px;
     margin: 10px auto;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main7 .box {
     width: 1555px;
@@ -545,16 +546,71 @@
 .main7 .main7-box {
     width: 1555px;
     height: 216px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 .main7 .main7-box .card {
     width: 262px;
     height: 216px;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .main7 .main7-box .card p {
     font-size: 17px;
+}
+/* * ================== main8 */
+.main8 {
+    width: 1555px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+
+.main8 h3 {
+    font-size: 40px;
+}
+/* * ============= main9 */
+.main9 {
+    width: 1555px;
+    height: 310px;
+    transform: translateY(-60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;;
+    margin: 20px auto;
+}
+
+.main9 .box1 {
+    width: 1430px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main9 .box1 div {
+    width: 209px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 1px 1px #b3adad;
+
+}
+
+.main9 .box1 div p {
+    font-size: 25px;
+}
+
+.main9 .box1 div img {
+    width: 100px;
+    height: 100px;
 }
