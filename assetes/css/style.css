@@ -515,3 +515,9 @@
     font-size: 40px;
 }
 /* * main7 */
+.main7 {
+    width: 1555px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
