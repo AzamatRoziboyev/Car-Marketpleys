@@ -268,7 +268,6 @@
 .main2 {
     width: 1660px;
     height: 454px;
-    border: 1px solid black;
     margin: 0 250px;
     overflow: hidden;
 
@@ -516,7 +515,45 @@
 /* * main7 */
 .main7 {
     width: 1555px;
-    height: 500px;
-    margin: auto;
+    height: 300px;
+    margin: 10px auto;
     border: 1px solid black;
+}
+.main7 .box {
+    width: 1555px;
+    height: 49px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.main7 .box span {
+    width: 135px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main7 .box .s1 {
+    border-bottom: 2px solid blue;
+}
+/* ^ main7-box */
+.main7 .main7-box {
+    width: 1555px;
+    height: 216px;
+    border: 1px solid red;
+}
+.main7 .main7-box .card {
+    width: 262px;
+    height: 216px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main7 .main7-box .card p {
+    
 }
