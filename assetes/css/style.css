@@ -123,6 +123,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .sign-katta.active {
@@ -132,7 +133,7 @@
 .sign-katta .sign-kichik {
     width: 500px;
     height: 600px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
