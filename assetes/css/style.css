@@ -251,11 +251,10 @@
 
 /* * main1 */
 .main1 {
-    width: 1905px;
+    width: 1660px;
     height: 90px;
-    margin: 50px auto;
+    margin: 50px 250px;
     display: flex;
-    border: 1px solid black;
     gap: 1200px;
     justify-content: center;
     align-items: end;
@@ -270,7 +269,7 @@
     width: 1660px;
     height: 454px;
     border: 1px solid black;
-    margin: 25px auto;
+    margin: 0 250px;
     overflow: hidden;
 
 }
