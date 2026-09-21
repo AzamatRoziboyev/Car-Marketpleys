@@ -171,9 +171,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.sign-katta .sign-kichik .label  label {
+
+.sign-katta .sign-kichik .label label {
     font-size: 25px;
 }
+
 .sign-katta .sign-kichik .label input {
     width: 460px;
     height: 50px;
@@ -441,7 +443,7 @@
 
 .main3 .main3-box .box1 img {
     width: 60px;
-    height: 60px;
+    /* height: 60px; */
 
 }
 
@@ -499,6 +501,7 @@
     width: 446px;
     height: 348px;
 }
+
 /* *==================== main6 */
 .main6 {
     width: 1555px;
@@ -512,6 +515,7 @@
 .main6 h3 {
     font-size: 40px;
 }
+
 /* * =============== main7 */
 .main7 {
     width: 1555px;
@@ -521,6 +525,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main7 .box {
     width: 1555px;
     height: 49px;
@@ -530,6 +535,7 @@
     align-items: center;
 
 }
+
 .main7 .box span {
     width: 135px;
     height: 49px;
@@ -539,9 +545,11 @@
     font-size: 16px;
     font-weight: 600;
 }
+
 .main7 .box .s1 {
     border-bottom: 2px solid blue;
 }
+
 /* ^ main7-box */
 .main7 .main7-box {
     width: 1555px;
@@ -549,6 +557,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .main7 .main7-box .card {
     width: 262px;
     height: 216px;
@@ -556,9 +565,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main7 .main7-box .card p {
     font-size: 17px;
 }
+
 /* * ================== main8 */
 .main8 {
     width: 1555px;
@@ -567,12 +578,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
 }
 
 .main8 h3 {
     font-size: 40px;
 }
+
 /* * ============= main9 */
 .main9 {
     width: 1555px;
@@ -582,7 +593,6 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 1px solid;;
     margin: 20px auto;
 }
 
