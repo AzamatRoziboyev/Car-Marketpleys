@@ -710,11 +710,16 @@
     width: 328px;
     height: 214px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main12 .main12-box .box3 .div1 {
     width: 264px;
     height: 21px;
     border: 1px solid red;
+    display: flex;
+    gap: 20px;
 }
 .main12 .main12-box .box3 .div2 {
     width: 119px;
@@ -728,4 +733,13 @@
     font-size: 15px;
     padding: 2px 1px 1px;
     color: white;
+}
+.main12 .main12-box .box3 .div3 {
+    width: 80px;
+    height: 21px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
 }
