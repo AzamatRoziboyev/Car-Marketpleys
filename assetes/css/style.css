@@ -693,3 +693,16 @@
 .main11 h3 {
     font-size: 40px;
 }
+/* * ============ main12 */
+.main12 {
+    width: 1660px;
+    height: 304px;
+    border: 1px solid red;
+    margin: 10px 240px;
+}
+.main12 .main12-box {
+    width: 1660px;
+    height: 214px;
+    border: 2px solid red;
+    
+}
