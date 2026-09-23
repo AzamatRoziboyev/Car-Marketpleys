@@ -628,7 +628,6 @@
 .main10 {
     width: 1750px;
     height: 670px;
-    border: 1px solid black;
     margin: 30px auto;
     display: flex;
     justify-content: space-between
@@ -636,15 +635,14 @@
 .main10 .main10-box {
     width: 900px;
     height: 670px;
-    border: 1px solid red;
     padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(222, 222, 240);
     gap: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 .main10 .main10-box h5 {
     font-size: 45px;
