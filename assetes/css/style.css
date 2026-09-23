@@ -680,3 +680,16 @@
     background-color: #405FF2;
     color: white;
 }
+/* * ================== main11 */
+.main11 {
+    width: 1555px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main11 h3 {
+    font-size: 40px;
+}
