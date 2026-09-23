@@ -640,6 +640,21 @@
     flex-direction: column;
     justify-content: center;
 }
-.main10 .main10-box {
-    
+.main10 .main10-box h5 {
+    font-size: 45px;
 }
+.main10 .main10-box .price {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+}
+.main10 .main10-box .price .rate {
+    width: 275px;
+    height: 57px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
