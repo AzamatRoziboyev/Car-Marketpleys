@@ -624,6 +624,7 @@
     width: 100px;
     height: 100px;
 }
+
 /* * ==============main10 */
 .main10 {
     width: 1750px;
@@ -632,6 +633,7 @@
     display: flex;
     justify-content: space-between
 }
+
 .main10 .main10-box {
     width: 900px;
     height: 670px;
@@ -644,9 +646,11 @@
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
+
 .main10 .main10-box h5 {
     font-size: 45px;
 }
+
 .main10 .main10-box .price {
     width: 570px;
     height: 140px;
@@ -655,6 +659,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+
 .main10 .main10-box .price .rate {
     width: 275px;
     height: 57px;
@@ -665,13 +670,16 @@
     background-color: white;
     border-radius: 10px;
 }
+
 .main10 .main10-box .price .rate small {
     color: gray;
     font-size: 15px;
 }
+
 .main10 .main10-box .price .rate span {
     font-size: 20px;
 }
+
 .main10 .main10-box .btn {
     width: 584px;
     height: 55px;
@@ -680,6 +688,7 @@
     background-color: #405FF2;
     color: white;
 }
+
 /* * ================== main11 */
 .main11 {
     width: 1555px;
@@ -693,6 +702,7 @@
 .main11 h3 {
     font-size: 40px;
 }
+
 /* * ============ main12 */
 .main12 {
     width: 1660px;
@@ -700,12 +710,14 @@
     border: 1px solid red;
     margin: 10px 240px;
 }
+
 .main12 .main12-box {
     width: 1660px;
     height: 214px;
     border: 2px solid red;
 
 }
+
 .main12 .main12-box .box3 {
     width: 328px;
     height: 214px;
@@ -714,6 +726,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .main12 .main12-box .box3 .div1 {
     width: 264px;
     height: 21px;
@@ -721,11 +734,13 @@
     display: flex;
     gap: 20px;
 }
+
 .main12 .main12-box .box3 .div2 {
     width: 119px;
     height: 20px;
     border: 1px solid black;
 }
+
 .main12 .main12-box .box3 .div2 i {
     width: 19px;
     height: 20px;
@@ -734,6 +749,7 @@
     padding: 2px 1px 1px;
     color: white;
 }
+
 .main12 .main12-box .box3 .div3 {
     width: 80px;
     height: 21px;
