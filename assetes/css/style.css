@@ -709,6 +709,7 @@
     height: 304px;
     border: 1px solid red;
     margin: 10px 240px;
+    overflow: hidden;
 }
 
 .main12 .main12-box {
@@ -726,7 +727,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 16px;
     background-color: #F9FBFC;
     
@@ -746,7 +747,6 @@
 .main12 .main12-box .box3 .div1 {
     width: 264px;
     height: 21px;
-    border: 1px solid red;
     display: flex;
     gap: 20px;
 }
@@ -754,7 +754,6 @@
 .main12 .main12-box .box3 .div2 {
     width: 119px;
     height: 20px;
-    border: 1px solid black;
 }
 
 .main12 .main12-box .box3 .div2 i {
@@ -769,7 +768,6 @@
 .main12 .main12-box .box3 .div3 {
     width: 80px;
     height: 21px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 2px;
