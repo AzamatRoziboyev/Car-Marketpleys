@@ -72,7 +72,7 @@ rightBtn.addEventListener("click", () => {
 })
 
 function updateCarousel() {
-    const moveAmount = -hisoblagich1 * box3Width
+    const moveAmount = hisoblagich1 * box3Width
     main12Box.style.transform = `translateX(${moveAmount}px)`
 }
 
