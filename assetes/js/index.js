@@ -52,28 +52,28 @@ function updateCarousel() {
 }
 // *main12
 
-const main12Boxlength = main12Box.length
+// const main12Boxlength = main12Box.length
 
-let hisoblagich1 = 0
+// let hisoblagich1 = 0
 
-const box3Width = 250
+// const box3Width = 250
 
-leftBtn.addEventListener("click", () => {
-    if(hisoblagich1 > 0) {
-        hisoblagich1--;
-        updateCarousel();
-    }
-})
-rightBtn.addEventListener("click", () => {
-    if(hisoblagich1 < main12Boxlength) {
-        hisoblagich1++;
-        updateCarousel();
-    }
-})
+// leftBtn.addEventListener("click", () => {
+//     if(hisoblagich1 > 0) {
+//         hisoblagich1--;
+//         updateCarousel();
+//     }
+// })
+// rightBtn.addEventListener("click", () => {
+//     if(hisoblagich1 < main12Boxlength) {
+//         hisoblagich1++;
+//         updateCarousel();
+//     }
+// })
 
-function updateCarousel() {
-    const moveAmount = hisoblagich1 * box3Width
-    main12Box.style.transform = `translateX(${moveAmount}px)`
-}
+// function updateCarousel() {
+//     const moveAmount = hisoblagich1 * box3Width
+//     main12Box.style.transform = `translateX(${moveAmount}px)`
+// }
 
 
