@@ -7,6 +7,11 @@ const main2Box = document.querySelector(".main2-box")
 const left = document.getElementById("left")
 const right = document.getElementById("right")
 const main2Box1 = document.querySelectorAll(".main2-box1")
+//* main12
+const main12Box = document.querySelector(".main12-box")
+const leftBtn = document.querySelector(".btn-left")
+const rightBtn = document.querySelector(".btn-right")
+const box3 = document.querySelectorAll(".box3")
 
 signBtn.addEventListener("click", () => {
     signKatta.classList.toggle("active")
@@ -44,6 +49,31 @@ function updateCarousel() {
     const moveAmount = -hisoblagich * cardWidth
     // CSS transform  orqali hatrakatlantirish
     main2Box.style.transform = `translateX(${moveAmount}px)`
+}
+// *main12
+
+const main12Boxlength = main12Box.length
+
+let hisoblagich1 = 0
+
+const box3Width = 210
+
+leftBtn.addEventListener("click", () => {
+    if(hisoblagich1 > 0) {
+        hisoblagich1--;
+        updateCarousel();
+    }
+})
+rightBtn.addEventListener("click", () => {
+    if(hisoblagich1 < main12Boxlength) {
+        hisoblagich1++;
+        updateCarousel();
+    }
+})
+
+function updateCarousel() {
+    const moveAmount = -hisoblagich1 * box3Width
+    main12Box.style.transform = `translateX(${moveAmount}px)`
 }
 
 
