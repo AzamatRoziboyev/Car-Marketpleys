@@ -715,16 +715,32 @@
     width: 1660px;
     height: 214px;
     border: 2px solid red;
+    display: flex;
+    gap: 15px;
 
 }
 
 .main12 .main12-box .box3 {
     width: 328px;
     height: 214px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: #F9FBFC;
+    
+}
+.main12 .main12-box .box3 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.main12 .main12-box .box3 small {
+    font-size: 17px;
+}
+.main12 .main12-box .box3 .box-span {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .main12 .main12-box .box3 .div1 {
