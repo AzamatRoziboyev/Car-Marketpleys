@@ -710,6 +710,9 @@
     border: 1px solid red;
     margin: 10px 240px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main12 .main12-box {
@@ -775,13 +778,25 @@
 }
 /* ^foter */
 .main12 .main12-foter {
-    width: 150px;
+    width: 140px;
     height: 40px;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 .main12 .main12-foter .btn-left {
     width: 60px;
     height: 40px;
     border: 1px solid gray;
     border-radius: 30px;
+    font-size: 30px;
+    background-color: transparent;
+}
+.main12 .main12-foter .btn-right {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 30px;
 }
