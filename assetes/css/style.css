@@ -709,7 +709,7 @@
     height: 304px;
     border: 1px solid red;
     margin: 10px 240px;
-   
+     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -721,7 +721,6 @@
     border: 2px solid red;
     display: flex;
     gap: 15px;
-     overflow: hidden;
 
 }
 
