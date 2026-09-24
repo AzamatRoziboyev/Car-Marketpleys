@@ -11,7 +11,7 @@ const main2Box1 = document.querySelectorAll(".main2-box1")
 const main12Box = document.querySelector(".main12-box")
 const leftBtn = document.querySelector(".btn-left")
 const rightBtn = document.querySelector(".btn-right")
-const box3 = document.querySelectorAll(".box3")
+const box3 = document.querySelector(".box3")
 
 signBtn.addEventListener("click", () => {
     signKatta.classList.toggle("active")
@@ -56,7 +56,7 @@ const main12Boxlength = main12Box.length
 
 let hisoblagich1 = 0
 
-const box3Width = 210
+const box3Width = 250
 
 leftBtn.addEventListener("click", () => {
     if(hisoblagich1 > 0) {
