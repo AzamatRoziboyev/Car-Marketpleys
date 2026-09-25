@@ -811,3 +811,17 @@
     font-size: 40px;
 }
 /* * ========== main14 */
+.main14 {
+    width: 1555px;
+    height: 468px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.main14 .main14-box {
+    width: 327px;
+    height: 468px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
