@@ -11,7 +11,7 @@ const main2Box1 = document.querySelectorAll(".main2-box1")
 const main12Box = document.querySelector(".main12-box")
 const leftBtn = document.querySelector(".btn-left")
 const rightBtn = document.querySelector(".btn-right")
-const box3 = document.querySelector(".box3")
+const box3 = document.querySelectorAll(".box3")
 
 signBtn.addEventListener("click", () => {
     signKatta.classList.toggle("active")
@@ -52,28 +52,28 @@ function updateCarousel() {
 }
 // *main12
 
-// const main12Boxlength = main12Box.length
+const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
 
-// let hisoblagich1 = 0
+let hisoblagich1 = 0
 
-// const box3Width = 250
+const box3Width = 250
 
-// leftBtn.addEventListener("click", () => {
-//     if(hisoblagich1 > 0) {
-//         hisoblagich1--;
-//         updateCarousel();
-//     }
-// })
-// rightBtn.addEventListener("click", () => {
-//     if(hisoblagich1 < main12Boxlength) {
-//         hisoblagich1++;
-//         updateCarousel();
-//     }
-// })
+leftBtn.addEventListener("click", () => {
+    if(hisoblagich1 > 0) {
+        hisoblagich1--;
+        updateCarousel1();
+    }
+})
+rightBtn.addEventListener("click", () => {
+    if(hisoblagich1 < main12Boxlength) {
+        hisoblagich1++;
+        updateCarousel1();
+    }
+})
 
-// function updateCarousel() {
-//     const moveAmount = hisoblagich1 * box3Width
-//     main12Box.style.transform = `translateX(${moveAmount}px)`
-// }
+function updateCarousel1() {
+    const moveAmount1 = -hisoblagich1 * box3Width
+    main12Box.style.transform = `translateX(${moveAmount1}px)`
+}
 
 
