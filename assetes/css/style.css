@@ -814,14 +814,21 @@
 .main14 {
     width: 1555px;
     height: 468px;
-    border: 1px solid black;
+    border: 3px solid black;
     margin: 20px auto;
 }
 .main14 .main14-box {
+    width: 1555px;
+    height: 468px;
+    border: 1px solid red;
+    display: flex;
+}
+.main14 .main14-box .box4 {
     width: 327px;
     height: 468px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 3px solid yellow;
+    padding-bottom: 5px;
 }
