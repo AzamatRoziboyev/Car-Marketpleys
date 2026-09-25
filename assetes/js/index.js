@@ -56,7 +56,7 @@ const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
 
 let hisoblagich1 = 0
 
-const box3Width = 250
+const box3Width = 90
 
 leftBtn.addEventListener("click", () => {
     if(hisoblagich1 > 0) {
