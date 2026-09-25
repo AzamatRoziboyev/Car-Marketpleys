@@ -833,3 +833,54 @@
 .main14 .main14-box .box4 b {
     font-size: 20px;
 }
+/* * ========== main15 */
+.main15 {
+    width: 1655px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.main15 .used-left {
+    width: 827px;
+    height: 500px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+    gap: 35px;
+    background-color: #405FF2;
+    color: white;
+}
+.main15 .used-left .main15-box {
+    width: 400px;
+    height: 60px;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.main15 .used-left .download {
+    width: 185px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+}
+.main15 .used-left .download .img {
+    width: 60px;    
+    height: 40px;
+    border-right: 1px solid blue;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #405FF2;
+}
+.main15 .used-left .download .text {
+    width: 114px;
+    height: 40px;
+    padding: 0px 10px;
+    color: #405FF2;
+}
