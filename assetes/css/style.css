@@ -837,13 +837,13 @@
 .main15 {
     width: 1655px;
     height: 500px;
-    border: 2px solid black;
     margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
 }
 .main15 .used-left {
     width: 827px;
     height: 500px;
-    border: 3px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -851,11 +851,12 @@
     gap: 35px;
     background-color: #405FF2;
     color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 .main15 .used-left .main15-box {
     width: 400px;
     height: 60px;
-    border: 2px solid yellow;
     display: flex;
     justify-content: space-between;
 }
