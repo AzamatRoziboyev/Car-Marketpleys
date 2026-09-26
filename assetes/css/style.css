@@ -731,15 +731,18 @@
     padding: 10px;
     border-radius: 16px;
     background-color: #e3f6ff;
-    
+
 }
+
 .main12 .main12-box .box3 p {
     font-size: 20px;
     font-weight: 600;
 }
+
 .main12 .main12-box .box3 small {
     font-size: 17px;
 }
+
 .main12 .main12-box .box3 .box-span {
     font-size: 20px;
     font-weight: 600;
@@ -774,6 +777,7 @@
     padding: 2px;
 
 }
+
 /* ^foter */
 .main12 .main12-foter {
     width: 140px;
@@ -781,6 +785,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .main12 .main12-foter .btn-left {
     width: 60px;
     height: 40px;
@@ -789,6 +794,7 @@
     font-size: 30px;
     background-color: transparent;
 }
+
 .main12 .main12-foter .btn-right {
     width: 60px;
     height: 40px;
@@ -797,6 +803,7 @@
     background-color: transparent;
     font-size: 30px;
 }
+
 /* *=========== main13 */
 .main13 {
     width: 1555px;
@@ -810,18 +817,21 @@
 .main13 h3 {
     font-size: 40px;
 }
+
 /* * ========== main14 */
 .main14 {
     width: 1505px;
     height: 468px;
     margin: 20px auto;
 }
+
 .main14 .main14-box {
     width: 1505px;
     height: 468px;
     display: flex;
     justify-content: space-between;
 }
+
 .main14 .main14-box .box4 {
     width: 327px;
     height: 468px;
@@ -830,9 +840,11 @@
     justify-content: space-between;
     padding-bottom: 10px;
 }
+
 .main14 .main14-box .box4 b {
     font-size: 20px;
 }
+
 /* * ========== main15 */
 .main15 {
     width: 1655px;
@@ -841,6 +853,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .main15 .used-left {
     width: 827px;
     height: 500px;
@@ -854,12 +867,14 @@
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
+
 .main15 .used-left .main15-box {
     width: 400px;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
+
 .main15 .used-left .download {
     width: 185px;
     height: 60px;
@@ -869,8 +884,9 @@
     background-color: white;
     border-radius: 16px;
 }
+
 .main15 .used-left .download .img {
-    width: 60px;    
+    width: 60px;
     height: 40px;
     border-right: 1px solid blue;
     font-size: 35px;
@@ -879,12 +895,14 @@
     align-items: center;
     color: #405FF2;
 }
+
 .main15 .used-left .download .text {
     width: 114px;
     height: 40px;
     padding: 0px 10px;
     color: #405FF2;
 }
+
 /* *=========== main16 */
 .main16 {
     width: 1555px;
@@ -898,15 +916,17 @@
 .main16 h3 {
     font-size: 40px;
 }
+
 /* * =========== main17 */
 .main17 {
     width: 1555px;
     height: 441px;
-    border: 1px solid black;
+    ;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
+
 .main17 .main17-box {
     width: 447px;
     height: 411px;
@@ -914,10 +934,12 @@
     flex-direction: column;
     gap: 10px;
 }
+
 .main17 .main17-box img {
     width: 447px;
     border-radius: 16px;
 }
+
 .main17 .main17-box .div {
     width: 190px;
     height: 27px;
@@ -926,6 +948,7 @@
     align-items: center;
     color: gray;
 }
+
 .main17 .main17-box p {
     font-weight: 700;
     font-size: 20px;
