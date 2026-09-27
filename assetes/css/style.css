@@ -970,12 +970,17 @@ footer .footer-top .carhut {
     width: 400px;
     height: 200px;
     border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
 }
 footer .footer-top .carhut h4 {
     font-size: 25px;
 }
 footer .footer-top .carhut .carhut-footer {
-    width: 350px;
+    width: 370px;
     height: 42px;
     /* border: 2px solid white; */
     display: flex;
@@ -983,12 +988,12 @@ footer .footer-top .carhut .carhut-footer {
     /* align-items: center; */
 }
 footer .footer-top .carhut .carhut-footer span {
-    width: 217px;
+    width: 180px;
     height: 42px;
     border: 1px solid white;
     display: flex;
     align-items: center;
     gap: 5px;
     justify-content: center;
-    boe
+    border-radius: 16px;
 }
