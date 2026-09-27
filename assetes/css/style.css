@@ -953,3 +953,42 @@
     font-weight: 700;
     font-size: 20px;
 }
+/** ============= footer */
+footer {
+    width: 100%;
+    height: 666px;
+    background-color: #050B20;
+    color: white;
+}
+/* ^ footer-top */
+footer .footer-top {
+    width: 100%;
+    height: 257px;
+    border: 1px solid white;
+}
+footer .footer-top .carhut {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+footer .footer-top .carhut h4 {
+    font-size: 25px;
+}
+footer .footer-top .carhut .carhut-footer {
+    width: 350px;
+    height: 42px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+footer .footer-top .carhut .carhut-footer span {
+    width: 217px;
+    height: 42px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    boe
+}
