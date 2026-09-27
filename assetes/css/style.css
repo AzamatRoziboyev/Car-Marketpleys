@@ -104,7 +104,7 @@
 .main header .header-right .sign-up {
     width: 142px;
     height: 47px;
-    border: 2px solid white;
+    border:  solid red solid white;
     border-radius: 16px;
     font-size: 15px;
     background-color: transparent;
@@ -284,10 +284,9 @@
     gap: 30px;
     font-weight: 700;
     margin: 20px auto;
-}
-
+}4
 .main2 .box2 p {
-    border-bottom: 2px solid #405FF2;
+    border-bottom:  solid red solid #405FF2;
 }
 
 /* * main2-box */
@@ -527,9 +526,9 @@
 }
 
 .main7 .box {
-    width: 1555px;
+    width: 1455px;
     height: 49px;
-    border-bottom: 2px solid gray;
+    border-bottom:  solid red solid gray;
     display: flex;
     gap: 25px;
     align-items: center;
@@ -544,10 +543,9 @@
     justify-content: center;
     font-size: 16px;
     font-weight: 600;
-}
-
+}4
 .main7 .box .s1 {
-    border-bottom: 2px solid blue;
+    border-bottom:  solid red solid blue;
 }
 
 /* ^ main7-box */
@@ -763,18 +761,18 @@
 .main12 .main12-box .box3 .div2 i {
     width: 19px;
     height: 20px;
-    background-color: green;
+    background-4olor: green;
     font-size: 15px;
-    padding: 2px 1px 1px;
+    padding:  solid red 1px 1px;
     color: white;
 }
 
 .main12 .main12-box .box3 .div3 {
     width: 80px;
     height: 21px;
-    display: flex;
+    display: flex4
     justify-content: space-between;
-    padding: 2px;
+    padding:  solid red;
 
 }
 
@@ -1027,9 +1025,9 @@ footer .footer-top .join button {
 }
 /* ^footer-orta */
 footer .footer-orta {
-    width: 100%;
+    width: 104%;
     height: 360px;
-    border: 2px solid white;
+    border:  solid red solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1055,4 +1053,42 @@ footer .footer-orta .footer-orta-box p {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 15px;
+}
+footer .footer-orta .our-mobile {
+    width: 254px;
+    height: 317px;
+    border:  solid red solid red;
+}
+footer .footer-orta .our-mobile .download {
+    width: 198px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 16px;
+    background-color: #FFFFFF12;
+
+
+}
+footer .footer-orta .our-mobile .download .img {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-orta .our-mobile .download .text {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footer-orta .our-mobile .download .text span {
+    font-size: 13px;
+}
+footer .footer-orta .our-mobile .download .text p {
+    font-size: 20px;
 }
