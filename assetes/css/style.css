@@ -964,7 +964,6 @@ footer {
 footer .footer-top {
     width: 100%;
     height: 257px;
-    border: 1px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -974,7 +973,6 @@ footer .footer-top {
 footer .footer-top .carhut {
     width: 400px;
     height: 200px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1003,7 +1001,6 @@ footer .footer-top .carhut .carhut-footer span {
 footer .footer-top .join {
     width: 427px;
     height: 200px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
