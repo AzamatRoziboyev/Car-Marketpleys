@@ -1001,6 +1001,9 @@ footer .footer-top .join {
     width: 427px;
     height: 200px;
     border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 footer .footer-top .join h3 {
     font-size: 25px;
@@ -1012,6 +1015,7 @@ footer .footer-top .join input {
     border: none;
     border-radius: 12px;
     padding: 0 20px;
+    color: white;
 }
 footer .footer-top .join button {
     width: 417px;
