@@ -104,7 +104,7 @@
 .main header .header-right .sign-up {
     width: 142px;
     height: 47px;
-    border:  solid red solid white;
+    border: solid red solid white;
     border-radius: 16px;
     font-size: 15px;
     background-color: transparent;
@@ -284,9 +284,10 @@
     gap: 30px;
     font-weight: 700;
     margin: 20px auto;
-}4
-.main2 .box2 p {
-    border-bottom:  solid red solid #405FF2;
+}
+
+4 .main2 .box2 p {
+    border-bottom: solid red solid #405FF2;
 }
 
 /* * main2-box */
@@ -528,7 +529,7 @@
 .main7 .box {
     width: 1455px;
     height: 49px;
-    border-bottom:  solid red solid gray;
+    border-bottom: solid red solid gray;
     display: flex;
     gap: 25px;
     align-items: center;
@@ -543,9 +544,10 @@
     justify-content: center;
     font-size: 16px;
     font-weight: 600;
-}4
-.main7 .box .s1 {
-    border-bottom:  solid red solid blue;
+}
+
+4 .main7 .box .s1 {
+    border-bottom: solid red solid blue;
 }
 
 /* ^ main7-box */
@@ -763,16 +765,15 @@
     height: 20px;
     background-4olor: green;
     font-size: 15px;
-    padding:  solid red 1px 1px;
+    padding: solid red 1px 1px;
     color: white;
 }
 
 .main12 .main12-box .box3 .div3 {
     width: 80px;
     height: 21px;
-    display: flex4
-    justify-content: space-between;
-    padding:  solid red;
+    display: flex4 justify-content: space-between;
+    padding: solid red;
 
 }
 
@@ -951,6 +952,7 @@
     font-weight: 700;
     font-size: 20px;
 }
+
 /** ============= footer */
 footer {
     width: 100%;
@@ -958,6 +960,7 @@ footer {
     background-color: #050B20;
     color: white;
 }
+
 /* ^ footer-top */
 footer .footer-top {
     width: 100%;
@@ -967,6 +970,7 @@ footer .footer-top {
     align-items: center;
     gap: 85px;
 }
+
 /* ^carhtu */
 footer .footer-top .carhut {
     width: 400px;
@@ -976,15 +980,18 @@ footer .footer-top .carhut {
     justify-content: center;
     gap: 25px;
 }
+
 footer .footer-top .carhut h4 {
     font-size: 25px;
 }
+
 footer .footer-top .carhut .carhut-footer {
     width: 370px;
     height: 42px;
     display: flex;
     justify-content: space-between;
 }
+
 footer .footer-top .carhut .carhut-footer span {
     width: 180px;
     height: 42px;
@@ -995,6 +1002,7 @@ footer .footer-top .carhut .carhut-footer span {
     justify-content: center;
     border-radius: 16px;
 }
+
 /* ^ join */
 footer .footer-top .join {
     width: 427px;
@@ -1003,9 +1011,11 @@ footer .footer-top .join {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .footer-top .join h3 {
     font-size: 25px;
 }
+
 footer .footer-top .join input {
     width: 417px;
     height: 69px;
@@ -1015,6 +1025,7 @@ footer .footer-top .join input {
     padding: 0 20px;
     color: white;
 }
+
 footer .footer-top .join button {
     width: 417px;
     height: 59px;
@@ -1023,6 +1034,7 @@ footer .footer-top .join button {
     color: white;
     border-radius: 16px;
 }
+
 /* ^footer-orta */
 footer .footer-orta {
     width: 104%;
@@ -1031,6 +1043,7 @@ footer .footer-orta {
     justify-content: center;
     align-items: center;
 }
+
 footer .footer-orta .orta-box {
     width: 1450px;
     height: 340px;
@@ -1039,19 +1052,22 @@ footer .footer-orta .orta-box {
     margin-top: 50px;
 
 }
+
 footer .footer-orta .footer-orta-box {
     width: 256px;
     height: 317px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
+
 footer .footer-orta .footer-orta-box p {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 15px;
 }
+
 footer .footer-orta .our-mobile {
     width: 254px;
     height: 317px;
@@ -1059,10 +1075,12 @@ footer .footer-orta .our-mobile {
     flex-direction: column;
     gap: 15px;
 }
+
 footer .footer-orta .our-mobile p {
     font-size: 20px;
     font-weight: 800;
 }
+
 footer .footer-orta .our-mobile .download {
     width: 198px;
     height: 60px;
@@ -1075,6 +1093,7 @@ footer .footer-orta .our-mobile .download {
 
 
 }
+
 footer .footer-orta .our-mobile .download .img {
     width: 40px;
     height: 40px;
@@ -1083,6 +1102,7 @@ footer .footer-orta .our-mobile .download .img {
     justify-content: center;
     align-items: center;
 }
+
 footer .footer-orta .our-mobile .download .text {
     width: 110px;
     height: 45px;
@@ -1090,12 +1110,15 @@ footer .footer-orta .our-mobile .download .text {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .footer-orta .our-mobile .download .text span {
     font-size: 13px;
 }
+
 footer .footer-orta .our-mobile .download .text p {
     font-size: 20px;
 }
+
 footer .footer-orta .our-mobile .list {
     width: 211px;
     height: 40px;
@@ -1103,8 +1126,8 @@ footer .footer-orta .our-mobile .list {
     justify-content: space-between;
     align-items: center;
 }
+
 footer .footer-orta .our-mobile .list i {
     font-size: 25px;
 
 }
-
