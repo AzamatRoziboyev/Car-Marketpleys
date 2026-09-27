@@ -1057,7 +1057,14 @@ footer .footer-orta .footer-orta-box p {
 footer .footer-orta .our-mobile {
     width: 254px;
     height: 317px;
-    border:  solid red solid red;
+    border:  1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .footer-orta .our-mobile p {
+    font-size: 20px;
+    font-weight: 800;
 }
 footer .footer-orta .our-mobile .download {
     width: 198px;
@@ -1080,7 +1087,7 @@ footer .footer-orta .our-mobile .download .img {
     align-items: center;
 }
 footer .footer-orta .our-mobile .download .text {
-    width: 100px;
+    width: 110px;
     height: 45px;
     display: flex;
     flex-direction: column;
@@ -1092,3 +1099,16 @@ footer .footer-orta .our-mobile .download .text span {
 footer .footer-orta .our-mobile .download .text p {
     font-size: 20px;
 }
+footer .footer-orta .our-mobile .list {
+    width: 211px;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-orta .our-mobile .list i {
+    font-size: 25px;
+
+}
+
