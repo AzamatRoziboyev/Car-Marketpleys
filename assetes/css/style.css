@@ -966,6 +966,9 @@ footer .footer-top {
     height: 257px;
     border: 1px solid white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 85px;
 }
 /* ^carhtu */
 footer .footer-top .carhut {
