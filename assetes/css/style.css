@@ -1027,7 +1027,6 @@ footer .footer-top .join button {
 footer .footer-orta {
     width: 104%;
     height: 360px;
-    border:  solid red solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1035,7 +1034,6 @@ footer .footer-orta {
 footer .footer-orta .orta-box {
     width: 1450px;
     height: 340px;
-    border: 4px solid yellow;
     display: flex;
     justify-content: space-between;
 
@@ -1043,7 +1041,6 @@ footer .footer-orta .orta-box {
 footer .footer-orta .footer-orta-box {
     width: 256px;
     height: 317px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -1057,7 +1054,6 @@ footer .footer-orta .footer-orta-box p {
 footer .footer-orta .our-mobile {
     width: 254px;
     height: 317px;
-    border:  1px solid red;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -1102,7 +1098,6 @@ footer .footer-orta .our-mobile .download .text p {
 footer .footer-orta .our-mobile .list {
     width: 211px;
     height: 40px;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
