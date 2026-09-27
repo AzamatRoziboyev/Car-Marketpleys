@@ -1034,7 +1034,6 @@ footer .footer-orta {
 footer .footer-orta .orta-box {
     width: 1450px;
     height: 340px;
-    border: 4px solid yellow;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
