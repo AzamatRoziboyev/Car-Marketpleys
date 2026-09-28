@@ -953,6 +953,7 @@
     font-weight: 700;
     font-size: 20px;
 }
+
 /** ============= footer */
 footer {
     width: 100%;
@@ -960,6 +961,7 @@ footer {
     background-color: #050B20;
     color: white;
 }
+
 /* ^ footer-top */
 footer .footer-top {
     width: 100%;
@@ -969,6 +971,7 @@ footer .footer-top {
     align-items: center;
     gap: 85px;
 }
+
 /* ^carhtu */
 footer .footer-top .carhut {
     width: 400px;
@@ -978,15 +981,18 @@ footer .footer-top .carhut {
     justify-content: center;
     gap: 25px;
 }
+
 footer .footer-top .carhut h4 {
     font-size: 25px;
 }
+
 footer .footer-top .carhut .carhut-footer {
     width: 370px;
     height: 42px;
     display: flex;
     justify-content: space-between;
 }
+
 footer .footer-top .carhut .carhut-footer span {
     width: 180px;
     height: 42px;
@@ -997,6 +1003,7 @@ footer .footer-top .carhut .carhut-footer span {
     justify-content: center;
     border-radius: 16px;
 }
+
 /* ^ join */
 footer .footer-top .join {
     width: 427px;
@@ -1005,9 +1012,11 @@ footer .footer-top .join {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .footer-top .join h3 {
     font-size: 25px;
 }
+
 footer .footer-top .join input {
     width: 417px;
     height: 69px;
@@ -1017,6 +1026,7 @@ footer .footer-top .join input {
     padding: 0 20px;
     color: white;
 }
+
 footer .footer-top .join button {
     width: 417px;
     height: 59px;
@@ -1025,6 +1035,7 @@ footer .footer-top .join button {
     color: white;
     border-radius: 16px;
 }
+
 /* ^footer-orta */
 footer .footer-orta {
     width: 100%;
@@ -1034,6 +1045,7 @@ footer .footer-orta {
     justify-content: center;
     align-items: center;
 }
+
 footer .footer-orta .orta-box {
     width: 1450px;
     height: 340px;
@@ -1042,6 +1054,7 @@ footer .footer-orta .orta-box {
     justify-content: space-between;
 
 }
+
 footer .footer-orta .footer-orta-box {
     width: 256px;
     height: 317px;
@@ -1049,8 +1062,9 @@ footer .footer-orta .footer-orta-box {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
+
 footer .footer-orta .footer-orta-box p {
     font-size: 20px;
     font-weight: 800;
