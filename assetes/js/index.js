@@ -11,7 +11,6 @@ const main12Box = document.querySelector(".main12-box")
 const leftBtn = document.querySelector(".btn-left")
 const rightBtn = document.querySelector(".btn-right")
 const box3 = document.querySelectorAll(".box3")
-
 signBtn.addEventListener("click", () => {
     signKatta.classList.toggle("active")
 })
@@ -72,4 +71,13 @@ function updateCarousel1() {
     main12Box.style.transform = `translateX(${moveAmount1}px)`
 }
 
-
+// * dark 
+const dark = document.getElementById("dark")
+dark.addEventListener("click", () => {
+    document.body.classList.toggle("darkmod")
+    if (document.body.classList.contains("darkmod")) {
+        dark.textContent = "🌑"
+    } else {
+        dark.textContent = "☀️"
+    }
+})

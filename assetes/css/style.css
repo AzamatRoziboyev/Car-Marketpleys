@@ -1132,3 +1132,7 @@ footer .footer-f {
     align-items: center;
 }
 
+body.darkmod {
+    background-color: black;
+    /* color: red; */
+}
