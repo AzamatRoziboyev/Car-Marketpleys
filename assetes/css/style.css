@@ -957,7 +957,7 @@
 /** ============= footer */
 footer {
     width: 100%;
-    height: 666px;
+    height: 676px;
     background-color: #050B20;
     color: white;
 }
@@ -1114,5 +1114,16 @@ footer .footer-orta .our-mobile .list {
 footer .footer-orta .our-mobile .list i {
     font-size: 25px;
 }
+/* ^ footer-f */
+footer .footer-f {
+    width: 1490px;
+    height: 59px;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
