@@ -1049,16 +1049,16 @@ footer .footer-orta {
 footer .footer-orta .orta-box {
     width: 1450px;
     height: 340px;
-    border: 4px solid yellow;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid gray;
+    padding-top: 10px;
 
 }
 
 footer .footer-orta .footer-orta-box {
     width: 256px;
     height: 317px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -1074,7 +1074,9 @@ footer .footer-orta .footer-orta-box p {
 footer .footer-orta .our-mobile {
     width: 256px;
     height: 317px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 footer .footer-orta .our-mobile p {
     font-size: 20px;
@@ -1093,7 +1095,6 @@ footer .footer-orta .our-mobile .download {
 footer .footer-orta .our-mobile .download .img {
     width: 45px;
     height: 45px;
-    border: 2px solid white;
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -1102,14 +1103,12 @@ footer .footer-orta .our-mobile .download .img {
 footer .footer-orta .our-mobile .download .text {
     width: 120px;
     height: 45px;
-    border: 2px solid white;
 } 
 footer .footer-orta .our-mobile .list {
     width: 211px;
     height: 40px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
     align-items: center;
 }
 footer .footer-orta .our-mobile .list i {
