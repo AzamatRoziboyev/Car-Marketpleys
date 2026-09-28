@@ -1136,6 +1136,15 @@ body.darkmod {
     background-color: black;
     color: white;
 }
-body.darkmod .main2 {
+body.darkmod .main2-footer button {
     color: white;
+}
+body.darkmod .main3 {
+    color: black;
+}
+body.darkmod .main12-foter button {
+    color: white;
+}
+body.darkmod .main12-box .box3 {
+    color: black;
 }
