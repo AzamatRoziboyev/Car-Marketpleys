@@ -1076,5 +1076,44 @@ footer .footer-orta .our-mobile {
     height: 317px;
     border: 1px solid red;
 }
-footer .footer-orta .our-mobile {}
+footer .footer-orta .our-mobile p {
+    font-size: 20px;
+    font-weight: 800;
+}
+footer .footer-orta .our-mobile .download {
+    width: 198px;
+    height: 60px;
+    background-color: #373948;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+footer .footer-orta .our-mobile .download .img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-orta .our-mobile .download .text {
+    width: 120px;
+    height: 45px;
+    border: 2px solid white;
+} 
+footer .footer-orta .our-mobile .list {
+    width: 211px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    align-items: center;
+}
+footer .footer-orta .our-mobile .list i {
+    font-size: 25px;
+}
+
 
