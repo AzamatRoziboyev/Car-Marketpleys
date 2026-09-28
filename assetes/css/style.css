@@ -286,7 +286,7 @@
     margin: 20px auto;
 }
 
-4 .main2 .box2 p {
+.main2 .box2 p {
     border-bottom: solid red solid #405FF2;
 }
 
@@ -546,7 +546,7 @@
     font-weight: 600;
 }
 
-4 .main7 .box .s1 {
+.main7 .box .s1 {
     border-bottom: solid red solid blue;
 }
 
@@ -763,17 +763,17 @@
 .main12 .main12-box .box3 .div2 i {
     width: 19px;
     height: 20px;
-    background-4olor: green;
+    background-color: green;
     font-size: 15px;
-    padding: solid red 1px 1px;
+    padding: 2px 1px;
     color: white;
 }
 
 .main12 .main12-box .box3 .div3 {
     width: 80px;
     height: 21px;
-    display: flex4 justify-content: space-between;
-    padding: solid red;
+    display: flex;
+    justify-content: space-between;
 
 }
 
