@@ -1136,3 +1136,6 @@ body.darkmod {
     background-color: black;
     color: white;
 }
+body.darkmod .main2 {
+    color: white;
+}
