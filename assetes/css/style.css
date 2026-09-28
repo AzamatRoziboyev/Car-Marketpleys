@@ -1070,3 +1070,11 @@ footer .footer-orta .footer-orta-box p {
     font-weight: 800;
     margin-bottom: 15px;
 }
+/* ^our-mobile */
+footer .footer-orta .our-mobile {
+    width: 256px;
+    height: 317px;
+    border: 1px solid red;
+}
+footer .footer-orta .our-mobile {}
+
