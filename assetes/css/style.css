@@ -1136,6 +1136,9 @@ body.darkmod {
     background-color: black;
     color: white;
 }
+body.darkmod .main-box .main-box2 .more {
+    color: black;
+}
 body.darkmod .main2-footer button {
     color: white;
 }
