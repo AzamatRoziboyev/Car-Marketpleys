@@ -1070,6 +1070,7 @@ footer .footer-orta .footer-orta-box p {
     font-weight: 800;
     margin-bottom: 15px;
 }
+
 /* ^our-mobile */
 footer .footer-orta .our-mobile {
     width: 256px;
@@ -1078,10 +1079,12 @@ footer .footer-orta .our-mobile {
     flex-direction: column;
     gap: 15px;
 }
+
 footer .footer-orta .our-mobile p {
     font-size: 20px;
     font-weight: 800;
 }
+
 footer .footer-orta .our-mobile .download {
     width: 198px;
     height: 60px;
@@ -1092,6 +1095,7 @@ footer .footer-orta .our-mobile .download {
     gap: 15px;
     justify-content: center;
 }
+
 footer .footer-orta .our-mobile .download .img {
     width: 45px;
     height: 45px;
@@ -1100,10 +1104,12 @@ footer .footer-orta .our-mobile .download .img {
     justify-content: center;
     align-items: center;
 }
+
 footer .footer-orta .our-mobile .download .text {
     width: 120px;
     height: 45px;
-} 
+}
+
 footer .footer-orta .our-mobile .list {
     width: 211px;
     height: 40px;
@@ -1111,9 +1117,11 @@ footer .footer-orta .our-mobile .list {
     justify-content: space-between;
     align-items: center;
 }
+
 footer .footer-orta .our-mobile .list i {
     font-size: 25px;
 }
+
 /* ^ footer-f */
 footer .footer-f {
     width: 1490px;
@@ -1123,4 +1131,3 @@ footer .footer-f {
     justify-content: space-between;
     align-items: center;
 }
-
