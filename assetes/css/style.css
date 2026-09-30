@@ -1415,17 +1415,18 @@ body.darkmod .main12-box .box3 {
         gap: 10px;
     }
     .main5 .main5-box {
-        width: 500px;
+        width: 300px;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         margin: auto;
+        border: 2px solid red;
 
     }
     .main5 .main5-box img {
-        width: 500px;
-        height: 300px;
+        width: 100%;
+        height: auto;
     }
     .main5 .main5-box1 {
         width: 500px;
