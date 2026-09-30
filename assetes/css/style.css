@@ -1532,14 +1532,14 @@ body.darkmod .main12-box .box3 {
         justify-content: space-between;
     }
     .main10 .main10-box .price .rate {
-        width: 550px;
+        width: 100%;
         height: 60px;
         display: flex;
         flex-direction: column;
         
     }
     .main10 .main10-box .btn {
-        width: 550px;
+        width: 100%;
         height: 60px;
 
     }
