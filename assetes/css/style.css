@@ -1513,25 +1513,40 @@ body.darkmod .main12-box .box3 {
         width: 95%;
         height: auto;
         border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     .main10 .main10-box  {
         width: 100%;
         height: auto;
         border: 2px solid black;
         padding: 25px;
+        border-radius: 16px;
     }
     .main10 .main10-box .price {
-        width: 500px;
+        width: 600px;
         height: 300px;
         border: 2px solid red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .main10 .main10-box .price .rete {
-        width: 500px;
-        height: 40px;
-        /* border: 1px solid red; */
+    .main10 .main10-box .price .rate {
+        width: 550px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .main10 .main10-box .btn {
+        width: 550px;
+        height: 60px;
+    }
+    .main10 img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
 
     }
     
