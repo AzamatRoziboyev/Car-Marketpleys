@@ -1346,16 +1346,86 @@ body.darkmod .main12-box .box3 {
     }
     /* ==================== main2 ================= */
     .main2 {
-        width: 100%;
+        width: 90%;
         height: auto;
-        border: 1px solid red;
-        margin-left: 40px;
+        margin-left: 72px;
     }
     
     .main2 .main2-box {
         width: 100%;
         height: auto;
-        border: 2px solid black;
     }
+    .main2 .main2-box .main2-box1 {
+        width: 550px;
+        height: auto;
+    }
+    .main2 .main2-box .main2-box1 img {
+        width: 275px;
+        height: auto;
+    }
+    .main2 .main2-box .main2-box1 .container {
+        width: 275px;
+        height: auto;
+    }
+    .main2 .main2-box .main2-box1 .container .cross {
+        width: 230px;
+        height: 65px;
+    }
+    .main2 .main2-box .main2-box1 .container .foter {
+        width: 230px;
+        height: 30px;
+    } 
+    /* *============== main3 ========== */
+    .main3 {
+        width: 95%;
+        height: auto;
+        padding: 25px;
+        margin: auto;
+    }
+    .main3 h3 {
+        font-size: 35px;
+    }
+    .main3 .main3-box {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    /* * ============== main4 ========= */
+   .main4 {
+        width: 100%;
+        height: auto;
+        margin: 40px 0 20px;
+        padding: 0 20px;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main4 h3 {
+        font-size: 28px;
+    }
+    /* * ============= main5 =========== */
+    .main5 {
+        width: 95%;
+        height: auto;
+        border: 2px solid red;
+    }
+    .main5 .main5-box {
+        width: 500px;
+        height: auto;
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: auto;
+
+    }
+    .main5 .main5-box img {
+        width: 500px;
+        height: 300px;
+    }
+    
 
 }
