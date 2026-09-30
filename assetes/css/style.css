@@ -1415,7 +1415,7 @@ body.darkmod .main12-box .box3 {
         gap: 10px;
     }
     .main5 .main5-box {
-        width: 300px;
+        width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
