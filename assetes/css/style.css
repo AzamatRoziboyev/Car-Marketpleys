@@ -1154,3 +1154,208 @@ body.darkmod .main12-foter button {
 body.darkmod .main12-box .box3 {
     color: black;
 }
+
+/* * telefon versiya */
+/* ============================= */
+/* 📱 MOBILE VERSION */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* ================= MAIN ================= */
+
+    .main {
+        width: 100%;
+        height: auto;
+        min-height: 750px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* ================= HEADER ================= */
+
+    .main header {
+        width: 100%;
+        height: 80px;
+        padding: 10px 15px;
+        justify-content: space-between;
+    }
+
+    .main header .header-left {
+        width: auto;
+        height: auto;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .main header .header-l {
+        display: none;
+    }
+
+    .main header .header-orta {
+        display: none;
+    }
+
+    .main header .header-button {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .main header .header-button .sign {
+        width: 65px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .dark {
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+
+    .main header .header-right {
+        width: 90px;
+        height: 38px;
+    }
+
+    .main header .header-right .sign-up {
+        width: 90px;
+        height: 38px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    /* ================= SIGN MODAL ================= */
+
+    .sign-katta {
+        padding: 15px
+    }
+
+    .sign-katta .sign-kichik {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 500px;
+        padding: 25px 20px;
+        gap: 15px;
+    }
+
+    .sign-katta .sign-kichik .h3 {
+        width: 100%;
+        height: 60px;
+    }
+
+    .sign-katta .sign-kichik .h3 h3 {
+        font-size: 32px;
+    }
+
+    .sign-katta .sign-kichik .h3 .sign-close {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .sign-katta .sign-kichik .label {
+        width: 100%;
+        height: 80px;
+    }
+
+    .sign-katta .sign-kichik .label label {
+        font-size: 18px;
+    }
+
+    .sign-katta .sign-kichik .label input {
+        width: 100%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .sign-katta .sign-kichik .sumbit {
+        width: 100%;
+        height: 45px;
+        font-size: 17px;
+    }
+
+    /* ================= HERO ================= */
+
+    .main .main-box {
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        margin: 0;
+        padding: 30px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .main .main-box1 {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .main .main-box1 p {
+        font-size: 22px;
+    }
+
+    .main .main-box1 h2 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .main .main-box2 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        min-height: 300px;
+        padding: 30px;
+    }
+
+    .main .main-box2 .more {
+        width: 100%;
+        height: 90px;
+    }
+
+    /* ================= MAIN 1 ================= */
+   .main1 {
+        width: 100%;
+        height: auto;
+        margin: 40px 0 20px;
+        padding: 0 20px;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main1 h3 {
+        font-size: 28px;
+    }
+    /* ==================== main2 ================= */
+    .main2 {
+        width: 100%;
+        height: auto;
+        border: 1px solid red;
+        margin-left: 40px;
+    }
+    
+    .main2 .main2-box {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+    }
+
+}
