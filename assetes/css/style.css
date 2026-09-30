@@ -1620,6 +1620,15 @@ body.darkmod .main12-box .box3 {
         height: auto;
         border-bottom-left-radius: 16px;
     }
+    .main15 .main15-box {
+        width: 100%;
+        
+        border: 1px solid red;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-between;
+    }
     /* * ============= main16 ========== */
      .main16 {
         width: 95%;
