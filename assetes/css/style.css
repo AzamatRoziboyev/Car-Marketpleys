@@ -1496,14 +1496,12 @@ body.darkmod .main12-box .box3 {
     .main9 {
         width: 95%;
         height: auto;
-        border: 2px solid red;
         margin-top: 100px;
         
     }
     .main9 .box1 {
         width: 100%;
         height: auto;
-        border: 1px solid black;
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
@@ -1512,7 +1510,6 @@ body.darkmod .main12-box .box3 {
     .main10 {
         width: 95%;
         height: auto;
-        border: 2px solid red;
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
@@ -1520,14 +1517,12 @@ body.darkmod .main12-box .box3 {
     .main10 .main10-box  {
         width: 100%;
         height: auto;
-        border: 2px solid black;
         padding: 25px;
         border-radius: 16px;
     }
     .main10 .main10-box .price {
         width: 600px;
         height: 300px;
-        border: 2px solid red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1639,7 +1634,6 @@ body.darkmod .main12-box .box3 {
     .main17 {
         width: 90%;
         height: auto;
-        border: 1px solid red;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1670,11 +1664,11 @@ body.darkmod .main12-box .box3 {
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        border: 2px solid red;
     }
     footer .footer-top  .carhut {
         width: 300px;
         height: auto;
+        margin-top: 20px;
     }
     footer .footer-top .carhut .carhut-footer {
         width: 100%;
@@ -1694,6 +1688,7 @@ body.darkmod .main12-box .box3 {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin-top: 20px;
     }
     footer .footer-top .join input {
         width: 100%;
