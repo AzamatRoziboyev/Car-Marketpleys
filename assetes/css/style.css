@@ -1627,6 +1627,10 @@ body.darkmod .main12-box .box3 {
         flex-wrap: wrap;
         gap: 15px;
     }
+    .main15 .used-left .main15-box .download {
+        width: 190px;
+        height: 50px;
+    }
     /* * ============= main16 ========== */
      .main16 {
         width: 95%;
