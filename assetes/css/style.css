@@ -1620,14 +1620,12 @@ body.darkmod .main12-box .box3 {
         height: auto;
         border-bottom-left-radius: 16px;
     }
-    .main15 .main15-box {
+    .main15 .used-left .main15-box {
         width: 100%;
-        
-        border: 1px solid red;
+        height: auto;
         display: flex;
-        /* flex-wrap: wrap; */
-        flex-direction: column;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
     }
     /* * ============= main16 ========== */
      .main16 {
