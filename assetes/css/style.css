@@ -1725,6 +1725,36 @@ body.darkmod .main12-box .box3 {
         align-items: center;
         gap: 10px;
     }
+    @media (max-width: 480px) {
+
+    .main .main-box1 h2 {
+        font-size: 30px;
+    }
+
+    .main .main-box1 p {
+        font-size: 18px;
+    }
+
+    .main1 h3,
+    .main4 h3,
+    .main6 h3,
+    .main8 h3,
+    .main11 h3,
+    .main13 h3,
+    .main16 h3 {
+        font-size: 20px;
+    }
+
+    .main3 h3,
+    .main10 .main10-box h5 {
+        font-size: 24px;
+    }
+
+    .main9 .box1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
 
 
 
