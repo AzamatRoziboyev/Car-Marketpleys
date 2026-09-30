@@ -1410,7 +1410,6 @@ body.darkmod .main12-box .box3 {
     .main5 {
         width: 95%;
         height: auto;
-        border: 2px solid red;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -1418,7 +1417,6 @@ body.darkmod .main12-box .box3 {
     .main5 .main5-box {
         width: 500px;
         height: auto;
-        border: 2px solid red;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
@@ -1434,10 +1432,10 @@ body.darkmod .main12-box .box3 {
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        border: 2px solid black;
         margin: auto;
         justify-content: center;
         align-items: center;
+        gap: 15px;
     }
 
 
