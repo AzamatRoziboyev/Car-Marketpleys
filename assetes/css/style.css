@@ -1421,7 +1421,6 @@ body.darkmod .main12-box .box3 {
         flex-wrap: wrap;
         gap: 10px;
         margin: auto;
-        border: 2px solid red;
 
     }
     .main5 .main5-box img {
@@ -1429,7 +1428,7 @@ body.darkmod .main12-box .box3 {
         height: auto;
     }
     .main5 .main5-box1 {
-        width: 500px;
+        width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
@@ -1437,6 +1436,10 @@ body.darkmod .main12-box .box3 {
         justify-content: center;
         align-items: center;
         gap: 15px;
+    }
+    .main5 .main5-box1 img {
+        width: 100%;
+        height: auto;
     }
 
     /* * ============= main6 ========== */
