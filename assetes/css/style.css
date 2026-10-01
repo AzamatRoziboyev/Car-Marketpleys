@@ -1793,7 +1793,11 @@ body.darkmod .main12-box .box3 {
         width: 180px;
         height: auto;
     }
-
+    footer .footer-orta .orta-box .our-mobile .download {
+        width: 200px;
+        height: 60px;
+        
+    }
     /* ^footer-f */
     footer .footer-f {
         width: 100%;
