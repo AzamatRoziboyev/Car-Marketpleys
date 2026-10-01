@@ -1445,6 +1445,7 @@ body.darkmod .main12-box .box3 {
     .main5 .main5-box img {
         width: 100%;
         height: auto;
+        border-radius: 16px;
     }
 
     .main5 .main5-box1 {
@@ -1461,6 +1462,7 @@ body.darkmod .main12-box .box3 {
     .main5 .main5-box1 img {
         width: 100%;
         height: auto;
+        border-radius: 16px;
     }
 
     /* * ============= main6 ========== */
