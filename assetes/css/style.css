@@ -1606,9 +1606,9 @@ body.darkmod .main12-box .box3 {
 
     /* *============= main12 ========== */
     .main12 {
-        width: 80%;
+        width: 90%;
         height: auto;
-        margin: 0 135px;
+        margin: 0 35px;
         display: flex;
         flex-direction: column;
         gap: 25px;
