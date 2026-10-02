@@ -7,10 +7,6 @@ const left = document.getElementById("left")
 const right = document.getElementById("right")
 const main2Box1 = document.querySelectorAll(".main2-box1")
 //* main12
-const main12Box = document.querySelector(".main12-box")
-const leftBtn = document.querySelector(".btn-left")
-const rightBtn = document.querySelector(".btn-right")
-const box3 = document.querySelectorAll(".box3")
 signBtn.addEventListener("click", () => {
     signKatta.classList.toggle("active")
 })
@@ -46,6 +42,10 @@ function updateCarousel() {
     main2Box.style.transform = `translateX(${moveAmount}px)`
 }
 // *main12
+const main12Box = document.querySelector(".main12-box")
+const leftBtn = document.querySelector(".btn-left")
+const rightBtn = document.querySelector(".btn-right")
+const box3 = document.querySelectorAll(".box3")
 
 const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
 
