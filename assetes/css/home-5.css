@@ -20,11 +20,18 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding: 15px;
+}
+.main header .header-left {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main header .header-right {
-    width: 800px;
+    width: 850px;
     height: 60px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +39,6 @@
 .main header .header-right .a {
     width: 450px;
     height: 60px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,8 +52,37 @@
 .main header .header-right .login {
     width: 100px;
     height: 30px;
-    border: 2px solid red;
     color: white;
     background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+
     
 } 
+.main header .header-right .dark {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.main header .header-right .dark:active {
+    transform: scale(0.9);
+}
+.main header .header-right .sumbit {
+    width: 152px;
+    height: 47px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 16px;
+}
