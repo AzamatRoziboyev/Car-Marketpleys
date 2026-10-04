@@ -35,7 +35,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid;
 }
 .main header .header-right .a {
     width: 500px;
