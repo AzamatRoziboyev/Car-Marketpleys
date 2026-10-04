@@ -167,3 +167,8 @@
     cursor: pointer;
 
 }
+.main .main-box {
+    width: 900px;
+    height: 400px;
+    border: 2px solid red;
+} 
