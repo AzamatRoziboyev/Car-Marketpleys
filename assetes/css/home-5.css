@@ -231,11 +231,12 @@
     border: none;
     font-size: 28px;
 }
-.main-brinchi {
+.main-birinchi {
     width: 300%;
     height: 100vh;
     display: flex;
     background-image: url(/assetes/img/home5-main.jpg);
+
 }
 .main-ikki {
     width: 100%;
