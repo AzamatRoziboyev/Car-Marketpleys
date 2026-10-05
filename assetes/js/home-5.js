@@ -31,7 +31,7 @@ signClose.addEventListener("click", () => {
 //     if(hisoblagich < main2Box1length) {
 //         hisoblagich++;
 //         updateCarousel();
-//     }
+//     }       
 // })
 
 // function updateCarousel() {
