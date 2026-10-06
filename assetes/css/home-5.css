@@ -299,13 +299,13 @@
 }
 /* * =========== main4 */
 .main4 {
-    width: 1400px;
+    width: 1450px;
     height: 1016px;
     border: 2px solid red;
     margin: 60px auto;
 }
 .main4 .span-box {
-    width: 1400px;
+    width: 1450px;
     height: 40px;
     border: 1px solid red;
     display: flex;
@@ -323,11 +323,13 @@
     border-bottom: 2px solid blue;
 }
 .main4 .car-list {
-    width: 1400px;
+    width: 1450px;
     height: 1016px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     border: 1px solid red;
+    padding: 15px;
+    gap: 20px;
 }
 
 .main4 .car-list .car-card {
@@ -377,7 +379,7 @@
 .main4 .car-list .car-card .car-footer .car2 {
     width: 300px;
     height: 69px;
-    border: 2px solid black;
+    border-bottom: 1px solid gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -385,7 +387,6 @@
 .main4 .car-list .car-card .car-footer .car2 div {
     width: 84px;
     height: 50px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -396,7 +397,6 @@
 .main4 .car-list .car-card .car-footer .car3 {
     width: 300px;
     height: 69px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
