@@ -250,3 +250,20 @@
 .main1 h3 {
     font-size: 40px;
 }
+/* *========== main2 */
+.main2 {
+    width: 1430px;
+    height: 203px;
+    border: 2px solid red;
+    margin: 10px auto;
+}
+.main2 .main2-box {
+    width: 209px;
+    height: 188px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
