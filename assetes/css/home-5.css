@@ -8,6 +8,10 @@
     width: 100%;
     height: 100vh;
     border: 1px solid red;
+    background-image: url(/assetes/img/home5-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main header {
@@ -231,20 +235,18 @@
     border: none;
     font-size: 28px;
 }
-.main-birinchi {
-    width: 300%;
-    height: 100vh;
+/* *========== main1 */
+.main1 {
+    width: 1660px;
+    height: 90px;
+    margin: 50px auto;
     display: flex;
-    background-image: url(/assetes/img/home5-main.jpg);
+    gap: 1200px;
+    justify-content: center;
+    align-items: end;
+    border: 1px solid ;
+}
 
-}
-.main-ikki {
-    width: 100%;
-    height: 100vh;
-    background-image: url(/assetes/img/car.jpg);
-}
-.main-uch {
-    width: 100%;
-    height: 100vh;
-    background-image: url(/assetes/img/fon.jpg);
+.main1 h3 {
+    font-size: 40px;
 }
