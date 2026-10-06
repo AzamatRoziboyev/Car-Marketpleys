@@ -409,6 +409,8 @@
     height: 579px;
     border: 1px solid red;
     margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
 
 }
 .main5 .main-left {
