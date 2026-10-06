@@ -237,14 +237,13 @@
 }
 /* *========== main1 */
 .main1 {
-    width: 1660px;
+    width: 1430px;
     height: 90px;
     margin: 50px auto;
     display: flex;
-    gap: 1200px;
+    gap: 1070px;
     justify-content: center;
     align-items: end;
-    border: 1px solid ;
 }
 
 .main1 h3 {
@@ -254,7 +253,6 @@
 .main2 {
     width: 1430px;
     height: 203px;
-    border: 2px solid red;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
@@ -262,7 +260,8 @@
 .main2 .main2-box {
     width: 209px;
     height: 188px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,3 +282,130 @@
     font-size: 20px;
     font-weight: 600;
 }
+/* *========== main3 */
+.main3 {
+    width: 1430px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    gap: 1000px;
+    justify-content: center;
+    align-items: end;
+    border: 1px solid;
+}
+
+.main3 h3 {
+    font-size: 40px;
+}
+/* * =========== main4 */
+.main4 {
+    width: 1400px;
+    height: 1016px;
+    border: 2px solid red;
+    margin: 60px auto;
+}
+.main4 .span-box {
+    width: 1400px;
+    height: 40px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main4 .span-box span {
+    width: 94px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main4 .span-box .s1 {
+    border-bottom: 2px solid blue;
+}
+.main4 .car-list {
+    width: 1400px;
+    height: 1016px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.main4 .car-list .car-card {
+    width: 328px;
+    height: 433px;
+    box-shadow: 0px 0px 3px 2px gray;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* *img */
+.main4 .car-list .car-card .img {
+    width: 328px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    /* padding: 15px; */
+    border: 1px solid red;
+
+}
+.main4 .car-list .car-card .img img {
+    width: 328px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.main4 .car-list .car-card .car-footer {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main4 .car-list .car-card .car-footer .car1 {
+    width: 300px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+.main4 .car-list .car-card .car-footer .car1 p {
+    font-size: 20px;
+    font-weight: 700;
+}
+/* ^ car2 */
+.main4 .car-list .car-card .car-footer .car2 {
+    width: 300px;
+    height: 69px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main4 .car-list .car-card .car-footer .car2 div {
+    width: 84px;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+/* ^car3 */
+.main4 .car-list .car-card .car-footer .car3 {
+    width: 300px;
+    height: 69px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main4 .car-list .car-card .car-footer .car3 p {
+    font-size: 25px;
+    font-weight: 800;
+}
+.main4 .car-list .car-card .car-footer .car3 span {
+    color: blue;
+}
+
