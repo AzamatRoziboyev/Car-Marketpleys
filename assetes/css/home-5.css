@@ -301,13 +301,12 @@
 .main4 {
     width: 1450px;
     height: 1016px;
-    border: 2px solid red;
     margin: 60px auto;
 }
 .main4 .span-box {
     width: 1450px;
     height: 40px;
-    border: 1px solid red;
+    border-bottom: 1px solid gray;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -327,7 +326,6 @@
     height: 1016px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 1px solid red;
     padding: 15px;
     gap: 20px;
 }
@@ -335,7 +333,7 @@
 .main4 .car-list .car-card {
     width: 328px;
     height: 433px;
-    box-shadow: 0px 0px 3px 2px gray;
+    box-shadow: 0px 0px 2px 1px gray;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -348,8 +346,6 @@
     height: 218px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    /* padding: 15px; */
-    border: 1px solid red;
 
 }
 .main4 .car-list .car-card .img img {
