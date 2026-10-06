@@ -403,4 +403,32 @@
 .main4 .car-list .car-card .car-footer .car3 span {
     color: blue;
 }
+/* * ============ main5 */
+.main5 {
+    width: 1400px;
+    height: 579px;
+    border: 1px solid red;
+    margin: 50px auto;
 
+}
+.main5 .main-left {
+    width: 622px;
+    height: 579px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.main5 .main-left h4 {
+    font-size: 45px;
+}
+.main5 .main-left .main5-btn {
+    width: 158px;
+    height: 53px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+
+}
