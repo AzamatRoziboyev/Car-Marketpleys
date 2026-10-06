@@ -235,6 +235,7 @@
     border: none;
     font-size: 28px;
 }
+
 /* *========== main1 */
 .main1 {
     width: 1430px;
@@ -249,6 +250,7 @@
 .main1 h3 {
     font-size: 40px;
 }
+
 /* *========== main2 */
 .main2 {
     width: 1430px;
@@ -257,6 +259,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .main2 .main2-box {
     width: 209px;
     height: 188px;
@@ -268,6 +271,7 @@
     align-items: center;
     gap: 20px;
 }
+
 .main2 .main2-box i {
     width: 70px;
     height: 70px;
@@ -278,10 +282,12 @@
     align-items: center;
     font-size: 35px;
 }
+
 .main2 .main2-box p {
     font-size: 20px;
     font-weight: 600;
 }
+
 /* *========== main3 */
 .main3 {
     width: 1430px;
@@ -296,12 +302,14 @@
 .main3 h3 {
     font-size: 40px;
 }
+
 /* * =========== main4 */
 .main4 {
     width: 1450px;
     height: 1016px;
     margin: 60px auto;
 }
+
 .main4 .span-box {
     width: 1450px;
     height: 40px;
@@ -310,6 +318,7 @@
     align-items: center;
     gap: 15px;
 }
+
 .main4 .span-box span {
     width: 94px;
     height: 39px;
@@ -317,9 +326,11 @@
     align-items: center;
     justify-content: center;
 }
+
 .main4 .span-box .s1 {
     border-bottom: 2px solid blue;
 }
+
 .main4 .car-list {
     width: 1450px;
     height: 1016px;
@@ -347,12 +358,14 @@
     border-top-right-radius: 16px;
 
 }
+
 .main4 .car-list .car-card .img img {
     width: 328px;
     height: 218px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+
 .main4 .car-list .car-card .car-footer {
     width: 300px;
     height: 200px;
@@ -361,15 +374,18 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main4 .car-list .car-card .car-footer .car1 {
     width: 300px;
     height: 50px;
     border-bottom: 1px solid gray;
 }
+
 .main4 .car-list .car-card .car-footer .car1 p {
     font-size: 20px;
     font-weight: 700;
 }
+
 /* ^ car2 */
 .main4 .car-list .car-card .car-footer .car2 {
     width: 300px;
@@ -379,6 +395,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .main4 .car-list .car-card .car-footer .car2 div {
     width: 84px;
     height: 50px;
@@ -388,6 +405,7 @@
     align-items: center;
     gap: 7px;
 }
+
 /* ^car3 */
 .main4 .car-list .car-card .car-footer .car3 {
     width: 300px;
@@ -396,13 +414,16 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .main4 .car-list .car-card .car-footer .car3 p {
     font-size: 25px;
     font-weight: 800;
 }
+
 .main4 .car-list .car-card .car-footer .car3 span {
     color: blue;
 }
+
 /* * ============ main5 */
 .main5 {
     width: 1400px;
@@ -412,6 +433,7 @@
     justify-content: space-between;
 
 }
+
 .main5 .main-left {
     width: 622px;
     height: 579px;
@@ -420,9 +442,11 @@
     justify-content: center;
     gap: 20px;
 }
+
 .main5 .main-left h4 {
     font-size: 45px;
 }
+
 .main5 .main-left .main5-btn {
     width: 158px;
     height: 53px;
@@ -432,6 +456,7 @@
     border-radius: 12px;
 
 }
+
 /* *========= main6 */
 .main6 {
     width: 1800px;
@@ -478,4 +503,3 @@
     font-size: 20px;
     font-weight: 800;
 }
-
