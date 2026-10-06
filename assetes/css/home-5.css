@@ -407,7 +407,6 @@
 .main5 {
     width: 1400px;
     height: 579px;
-    border: 1px solid red;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
@@ -416,7 +415,6 @@
 .main5 .main-left {
     width: 622px;
     height: 579px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
