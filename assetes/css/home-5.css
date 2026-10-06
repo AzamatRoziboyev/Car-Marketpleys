@@ -433,5 +433,49 @@
 
 }
 /* *========= main6 */
+.main6 {
+    width: 1800px;
+    height: 489px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 100px;
+    border-radius: 10px;
 
+
+}
+
+.main6 h3 {
+    font-size: 45px;
+    display: flex;
+
+}
+
+.main6 .main6-box {
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main6 .main6-box .box1 {
+    width: 270px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main6 .main6-box .box1 img {
+    width: 60px;
+    /* height: 60px; */
+
+}
+
+.main6 .main6-box .box1 p {
+    font-size: 20px;
+    font-weight: 800;
+}
 
