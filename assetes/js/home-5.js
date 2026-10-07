@@ -14,7 +14,7 @@ const right = document.querySelector(".btn-right1")
 const main2Box1 = document.querySelectorAll(".car-card")
 
 
-const main2Boxlength = main2Box1.length // kartalar uzunligi
+const main2Box1length = main2Box1.length // kartalar uzunligi
 
 
 let hisoblagich = 0;
