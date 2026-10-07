@@ -1845,6 +1845,9 @@ body.darkmod .main12-box .box3 {
         .main9 .box1 div {
             width: 95%;
             height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
         }
     }
