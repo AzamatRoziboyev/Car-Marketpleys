@@ -1842,9 +1842,9 @@ body.darkmod .main12-box .box3 {
         }
     }
     @media(max-width: 470px) {
-        .main9 .box1 {
+        .main9 .box1 div {
             width: 95%;
-            height: auto;
+            height: 300px;
 
         }
     }
