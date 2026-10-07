@@ -524,6 +524,9 @@
     border: 1px solid red;
     margin: auto;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main8 .car-list {
     width: 1430px;
@@ -532,6 +535,7 @@
     border: 3px solid black;
     justify-content: space-between;
     gap: 20px;
+
     
 }
 
@@ -619,10 +623,25 @@
     color: blue;
 }
 .main8 .btn-footer {
-    width: 150px;
-    height: 65px;
+    width: 130px;
+    height: 55px;
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.main8 .btn-footer .btn-footer {
+.main8 .btn-footer .btn-left1 {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.main8 .btn-footer .btn-right1 {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 30px;
     
 }
