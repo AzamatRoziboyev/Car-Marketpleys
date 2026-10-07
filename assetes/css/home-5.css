@@ -504,6 +504,7 @@
     font-size: 20px;
     font-weight: 800;
 }
+
 /* *============== main7 */
 .main7 {
     width: 1430px;
@@ -518,6 +519,7 @@
 .main7 h3 {
     font-size: 40px;
 }
+
 /* *============ main8 */
 .main8 {
     width: 1430px;
@@ -528,6 +530,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .main8 .car-list1 {
     width: 1430px;
     height: 443px;
@@ -536,7 +539,7 @@
     gap: 20px;
     padding: 5px;
 
-    
+
 }
 
 .main8 .car-list1 .car-card1 {
@@ -619,6 +622,7 @@
 .main8 .car-list1 .car-card1 .car-footer .car3 span {
     color: blue;
 }
+
 .main8 .btn-footer {
     width: 130px;
     height: 55px;
@@ -626,6 +630,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .main8 .btn-footer .btn-left1 {
     width: 60px;
     height: 40px;
@@ -633,11 +638,131 @@
     border-radius: 30px;
     font-size: 30px;
 }
+
 .main8 .btn-footer .btn-right1 {
     width: 60px;
     height: 40px;
     border: 1px solid gray;
     border-radius: 30px;
     font-size: 30px;
-    
+
+}
+
+/* *============== main9 */
+.main9 {
+    width: 1430px;
+    height: 90px;
+    margin: 50px auto;
+    display: flex;
+    gap: 1000px;
+    justify-content: center;
+    align-items: end;
+}
+
+.main9 h3 {
+    font-size: 30px;
+
+}
+
+/* *=============== main10 */
+.main10 {
+    width: 1430px;
+    height: 304px;
+    margin: 10px 240px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main10 .main10-box {
+    width: 1430px;
+    height: 214px;
+    display: flex;
+    gap: 15px;
+    padding: 0px 5px;
+
+
+}
+
+.main10 .main10-box .box3 {
+    width: 328px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #e3f6ff;
+
+}
+
+.main10 .main10-box .box3 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main10 .main10-box .box3 small {
+    font-size: 17px;
+}
+
+.main10 .main10-box .box3 .box-span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main10 .main10-box .box3 .div1 {
+    width: 264px;
+    height: 21px;
+    display: flex;
+    gap: 20px;
+}
+
+.main10 .main10-box .box3 .div2 {
+    width: 119px;
+    height: 20px;
+}
+
+.main10 .main10-box .box3 .div2 i {
+    width: 19px;
+    height: 20px;
+    background-color: green;
+    font-size: 15px;
+    padding: 2px 1px 1px;
+    color: white;
+}
+
+.main10 .main10-box .box3 .div3 {
+    width: 80px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+
+/* ^foter */
+.main10 .main10-foter {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main10 .main10-foter .left {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.main10 .main10-foter .right {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 30px;
 }
