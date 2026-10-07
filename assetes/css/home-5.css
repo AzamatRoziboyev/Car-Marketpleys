@@ -523,6 +523,7 @@
     height: 523px;
     border: 1px solid red;
     margin: auto;
+    overflow: hidden;
 }
 .main8 .car-list {
     width: 1430px;
@@ -530,7 +531,6 @@
     display: flex;
     border: 3px solid black;
     justify-content: space-between;
-    /* padding: 15px; */
     gap: 20px;
     
 }
