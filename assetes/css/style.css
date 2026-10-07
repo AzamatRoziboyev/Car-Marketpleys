@@ -1841,6 +1841,13 @@ body.darkmod .main12-box .box3 {
             gap: 10px;
         }
     }
+    @media(max-width: 470px) {
+        .main9 .box1 {
+            width: 95%;
+            height: auto;
+
+        }
+    }
 
 
 
