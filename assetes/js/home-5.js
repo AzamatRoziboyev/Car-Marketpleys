@@ -19,7 +19,7 @@ const main2Box1length = main2Box1.length // kartalar uzunligi
 
 let hisoblagich = 0;
 
-const cardWidth = 434;
+const cardWidth = 534;
 
 left.addEventListener("click", () => {
     if(hisoblagich > 0) {
