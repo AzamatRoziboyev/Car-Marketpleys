@@ -1851,6 +1851,12 @@ body.darkmod .main12-box .box3 {
 
         }
     }
+    @media (max-width: 705px) {
+        .main14 .main14-box .box4 {
+            width: 95%;
+            height: auto;
+        }
+    }
 
 
 
