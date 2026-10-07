@@ -565,13 +565,10 @@
     border-top-right-radius: 16px;
 }
 
-.main8 .car-list1 .car-car1 .car-footer {
+.main8 .car-list1 .car-card1 .car-footer {
     width: 300px;
     height: 200px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car1 {
