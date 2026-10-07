@@ -8,35 +8,35 @@ signClose.addEventListener("click", () => {
     signKatta.classList.remove("active")
 })
 // ! main
-// const main2Box = document.querySelector(".main-birinchi")
-// const left = document.getElementById("left")
-// const right = document.getElementById("right")
-// const main2Box1 = document.querySelectorAll(".main2-box1")
+const main2Box = document.querySelector(".car-list")
+const left = document.querySelector(".btn-left1")
+const right = document.querySelector(".btn-right1")
+const main2Box1 = document.querySelectorAll(".car-card")
 
 
-// const main2Box1length = main2Box1.length // kartalar uzunligi
+const main2Boxlength = main2Box1.length // kartalar uzunligi
 
 
-// let hisoblagich = 0;
+let hisoblagich = 0;
 
-// const cardWidth = 434;
+const cardWidth = 434;
 
-// left.addEventListener("click", () => {
-//     if(hisoblagich > 0) {
-//         hisoblagich--;
-//         updateCarousel();
-//     }
-// })
-// right.addEventListener("click", () => {
-//     if(hisoblagich < main2Box1length) {
-//         hisoblagich++;
-//         updateCarousel();
-//     }       
-// })
+left.addEventListener("click", () => {
+    if(hisoblagich > 0) {
+        hisoblagich--;
+        updateCarousel();
+    }
+})
+right.addEventListener("click", () => {
+    if(hisoblagich < main2Box1length) {
+        hisoblagich++;
+        updateCarousel();
+    }       
+})
 
-// function updateCarousel() {
-//     // Yo'lakni chapga surish (minus qiymat)
-//     const moveAmount = -hisoblagich * cardWidth
-//     // CSS transform  orqali hatrakatlantirish
-//     main2Box.style.transform = `translateX(${moveAmount}px)`
-// }
+function updateCarousel() {
+    // Yo'lakni chapga surish (minus qiymat)
+    const moveAmount = -hisoblagich * cardWidth
+    // CSS transform  orqali hatrakatlantirish
+    main2Box.style.transform = `translateX(${moveAmount}px)`
+}
