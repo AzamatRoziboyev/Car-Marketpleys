@@ -618,3 +618,11 @@
 .main8 .car-list .car-card .car-footer .car3 span {
     color: blue;
 }
+.main8 .btn-footer {
+    width: 150px;
+    height: 65px;
+    border: 1px solid red;
+}
+.main8 .btn-footer .btn-footer {
+    
+}
