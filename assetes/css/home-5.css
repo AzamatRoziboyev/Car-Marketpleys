@@ -308,6 +308,7 @@
     width: 1450px;
     height: 1016px;
     margin: 60px auto;
+    
 }
 
 .main4 .span-box {
@@ -521,7 +522,6 @@
 .main8 {
     width: 1430px;
     height: 523px;
-    border: 1px solid red;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -532,7 +532,6 @@
     width: 1430px;
     height: 443px;
     display: flex;
-    border: 3px solid black;
     justify-content: space-between;
     gap: 20px;
 
@@ -622,7 +621,6 @@
 .main8 .btn-footer {
     width: 130px;
     height: 55px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
