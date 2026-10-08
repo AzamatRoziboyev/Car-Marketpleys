@@ -1402,7 +1402,6 @@ body.darkmod .main6 .main6-box .box1 {
     .main13 {
         width: 95%;
         height: auto;
-        border: 1px solid red;
         margin: 40px auto;
         display: flex;
         flex-direction: column;
@@ -1415,10 +1414,18 @@ body.darkmod .main6 .main6-box .box1 {
     .main13 .span-box {
         width: 100%;
         height: auto;
-        border: 1px solid;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    /* *=========main14 */
+    .main14 {
+        width: 95%;
+        height: auto;
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 
 }
