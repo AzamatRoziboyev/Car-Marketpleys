@@ -1322,4 +1322,103 @@ body.darkmod .main6 .main6-box .box1 {
     .main6 .main6-box .box1 {
         margin: auto;
     }
+    /* *====== main7 */
+    .main7 {
+        width: 95%;
+        height: auto;
+        margin: 50px auto;
+        padding: 0 20px;
+        border: 1px solid;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main7 h3 {
+        font-size: 30px;
+    }
+    /* *====== main8 */
+    .main8 {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* *======== main9 */
+    .main9 {
+        width: 95%;
+        height: auto;
+        margin: 50px auto;
+        padding: 0 20px;
+        border: 1px solid;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main9 h3 {
+        font-size: 25px;
+    }
+    .main9 p {
+        font-size: 10px;
+    }
+    /* *==== main10 */
+    .main10 {
+        width: 95%;
+        height: auto;
+        border: 2px solid red;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main10 .main10-box {
+        width: 100%;
+        height: auto;
+    }
+    /* *====== main11 */
+    .main11 {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main11 h3 {
+        font-size: 25px;
+    }
+    /* *====== main12 */
+    .main12 {
+        width: 95%;
+        height: auto;
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: auto;
+    }
+    .main12 .main12-box {
+        margin: auto;
+    }
+    /* * ========= main13 */
+    .main13 {
+        width: 95%;
+        height: auto;
+        border: 1px solid red;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    .main13 h5 {
+        font-size: 25px;
+    }
+    .main13 .span-box {
+        width: 100%;
+        height: auto;
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
