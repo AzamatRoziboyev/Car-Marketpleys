@@ -1435,9 +1435,20 @@ body.darkmod .main6 .main6-box .box1 {
         width: 100%;
         height: auto;
         border-top-right-radius: 15px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .main14 .used-left h1 {
+        font-size: 20px;
+    }
+    .main14 .used-left p {
+        width: 100%;
+        font-size: 15px;
     }
     .main14 .used-left .main14-box {
-        width: 500px;
+        width: 90%;
         height: auto;
         border: 1px solid;
         display: flex;
@@ -1445,6 +1456,8 @@ body.darkmod .main6 .main6-box .box1 {
         gap: 15px;
     }
     .main14  img {
+        width: 100%;
+        height: auto;
         border-bottom-left-radius: 15px;
     }
     /* *========== main15 */
@@ -1481,9 +1494,10 @@ body.darkmod .main6 .main6-box .box1 {
     .main17 {
         width: 100%;
         height: 400px;
+        padding: 0 50px;
     }
     .main17 h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .main17 .main17-btn {
         width: 120px;
