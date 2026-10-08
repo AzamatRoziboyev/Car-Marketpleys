@@ -765,3 +765,25 @@
     background-color: transparent;
     font-size: 30px;
 }
+/* * ============ main11 */
+.main11 {
+    width: 1430px;
+    height: 90px;
+    margin: 100px auto;
+    display: flex;
+    /* gap: 1000px; */
+    justify-content: space-between;
+    align-items: end;
+}
+
+.main11 h3 {
+    font-size: 30px;
+
+}
+/* * ============= main12 */
+.main12 {
+    width: 1430px;
+    height: 468px;
+    border: 1px solid red;
+    margin: auto;
+}
