@@ -784,15 +784,13 @@
 .main12 {
     width: 1430px;
     height: 468px;
-    border: 1px solid red;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
 .main12 .main12-box {
     width: 327px;
     height: 468px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -803,4 +801,94 @@
 }
 .main12 .main12-box small {
     font-size: 15px;
+}
+/* *========= main13 */
+.main13 {
+    width: 1430px;
+    height: 140px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main13 h5 {
+    font-size: 40px;
+}
+.main13 .span-box {
+    width: 1430px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main13 .span-box span {
+    width: 148px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+/* *=========== main14 */
+.main14 {
+    width: 1430px;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.main14 .used-left {
+    width: 827px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 140px;
+    gap: 35px;
+    background-color: #EEF0FC;
+    /* color: white; */
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.main14 .used-left .main14-box {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main14 .used-left .download {
+    width: 185px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050B20;
+    border-radius: 16px;
+}
+
+.main14 .used-left .download .img {
+    width: 60px;
+    height: 40px;
+    border-right: 1px solid gray;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main14 .used-left .download .text {
+    width: 114px;
+    height: 40px;
+    padding: 0px 10px;
+    color: white;
+}
+.main14 img {
+    width: 730px;
 }
