@@ -511,8 +511,7 @@
     height: 90px;
     margin: 50px auto;
     display: flex;
-    gap: 1000px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
 }
 
@@ -652,10 +651,10 @@
 .main9 {
     width: 1430px;
     height: 90px;
-    margin: 50px auto;
+    margin: 100px auto;
     display: flex;
-    gap: 1000px;
-    justify-content: center;
+    /* gap: 1000px; */
+    justify-content: space-between;
     align-items: end;
 }
 
