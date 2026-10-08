@@ -1130,6 +1130,11 @@ body.darkmod .main6 .main6-box .box1 {
     .main header .header-left {
         width: auto;
     }
+    .main header .header-left h1 {
+        font-size: 20px;
+        border: 1px solid red;
+
+    }
 
     .main header .header-orta {
         display: none;
@@ -1229,5 +1234,92 @@ body.darkmod .main6 .main6-box .box1 {
         width: 140px;
         height: 48px;
     }
-
+    /* * main1 */
+    .main1 {
+        width: 95%;
+        height: auto;
+        margin: 50px auto;
+        padding: 0 20px;
+        border: 1px solid;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main1 h3 {
+        font-size: 20px;
+    }
+    /* *main2 */
+    .main2 {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .main2 .main2-box {
+        margin: auto;
+    }
+    /* *main3 */
+     .main3 {
+        width: 95%;
+        height: auto;
+        margin: 50px auto;
+        padding: 0 20px;
+        border: 1px solid;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main3 h3 {
+        font-size: 20px;
+    }
+    /* *===== main4 */
+    .main4 {
+        width: 95%;
+        height: auto;
+        border: 1px solid red;
+    }
+    .main4 .span-box {
+        width: 100%;
+        height: 40px;
+    }
+    .main4 .car-list {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main4 .car-list .car-card {
+        margin: auto;
+    }
+    /* *====main5 */
+    .main5 {
+        width: 95%;
+        height: auto;
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* * ===== main6 */
+    .main6 {
+        width: 95%;
+        height: auto;
+        border: 1px solid red;
+        margin: auto;
+        padding: 0;
+    }
+    .main6 .main6-box {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: auto;
+    }
+    .main6 .main6-box .box1 {
+        margin: auto;
+    }
 }
