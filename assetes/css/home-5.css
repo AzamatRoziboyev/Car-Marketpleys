@@ -7,7 +7,6 @@
 .main {
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
     background-image: url(/assetes/img/home5-main.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +16,6 @@
 .main header {
     width: 100%;
     height: 104px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1111,4 +1109,500 @@ body.darkmod .main6 .main6-box .box1 {
     border-radius: 12px;
     padding: 5px;
     color: black;
+}
+
+/* ===== TELEFON VERSIYA (max 768px) ===== */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* ---------- main + header ---------- */
+    .main {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .main header {
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .main header .header-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main header .header-right {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .main header .header-right .a {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .main header .header-right .a a {
+        font-size: 16px;
+    }
+
+    .main header .header-right .sumbit {
+        width: 130px;
+        height: 42px;
+        font-size: 15px;
+    }
+
+    /* ---------- sign (login oynasi) ---------- */
+    .sign-katta .sign-kichik {
+        width: 92%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .sign-katta .sign-kichik .h3,
+    .sign-katta .sign-kichik .label,
+    .sign-katta .sign-kichik .label input,
+    .sign-katta .sign-kichik .sumbit {
+        width: 90%;
+    }
+
+    .sign-katta .sign-kichik .h3 h3 {
+        font-size: 32px;
+    }
+
+    .sign-katta .sign-kichik .label label {
+        font-size: 20px;
+    }
+
+    /* ---------- main-box ---------- */
+    .main .main-box {
+        width: 100%;
+        height: auto;
+        margin: 40px 0 0;
+        padding: 15px;
+    }
+
+    .main .main-box h1 {
+        font-size: 34px;
+    }
+
+    .main .main-box .p {
+        font-size: 18px;
+    }
+
+    .main .main-box .div {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .main .btn {
+        margin: 30px 15px;
+    }
+
+    /* ---------- sarlavhalar (main1, main3, main7, main9, main11, main15) ---------- */
+    .main1,
+    .main3,
+    .main7,
+    .main9,
+    .main11,
+    .main15 {
+        width: 100%;
+        height: auto;
+        margin: 30px auto 15px;
+        padding: 0 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main1 h3,
+    .main3 h3,
+    .main7 h3 {
+        font-size: 26px;
+    }
+
+    .main9 h3,
+    .main11 h3,
+    .main15 h3 {
+        font-size: 22px;
+    }
+
+    /* ---------- main2 (kategoriyalar) ---------- */
+    .main2 {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .main2 .main2-box {
+        width: 100%;
+        height: 160px;
+    }
+
+    /* ---------- main4 (mashina kartalari - grid) ---------- */
+    .main4 {
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        padding: 0 10px;
+    }
+
+    .main4 .span-box {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .main4 .span-box span {
+        flex-shrink: 0;
+    }
+
+    .main4 .car-list {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 15px 0;
+        justify-items: center;
+    }
+
+    .main4 .car-list .car-card {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .main4 .car-list .car-card .img,
+    .main4 .car-list .car-card .img img {
+        width: 100%;
+    }
+
+    /* ---------- main5 ---------- */
+    .main5 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 15px;
+        margin: 30px auto;
+    }
+
+    .main5 .main-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .main5 .main-left h4 {
+        font-size: 28px;
+    }
+
+    .main5 img {
+        width: 100%;
+    }
+
+    /* ---------- main6 ---------- */
+    .main6 {
+        width: 100%;
+        height: auto;
+        padding: 30px 15px;
+        margin: 30px auto;
+    }
+
+    .main6 h3 {
+        font-size: 28px;
+    }
+
+    .main6 .main6-box {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    .main6 .main6-box .box1 {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    /* ---------- main8 (slider kartalar) ---------- */
+    .main8 {
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .main8 .car-list1 {
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .main8 .car-list1 .car-card1 {
+        flex-shrink: 0;
+        width: 290px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .main8 .car-list1 .car-card1 .img,
+    .main8 .car-list1 .car-card1 .img img {
+        width: 100%;
+    }
+
+    .main8 .car-list1 .car-card1 .car-footer {
+        width: 90%;
+        height: auto;
+    }
+
+    .main8 .btn-footer {
+        margin: 15px auto;
+    }
+
+    /* ---------- main10 (sharhlar) ---------- */
+    .main10 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    .main10 .main10-box {
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+    }
+
+    .main10 .main10-box .box3 {
+        flex-shrink: 0;
+        width: 290px;
+        height: auto;
+    }
+
+    .main10 .main10-foter {
+        margin: 15px auto;
+    }
+
+    /* ---------- main12 ---------- */
+    .main12 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    .main12 .main12-box {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .main12 .main12-box img {
+        width: 100%;
+    }
+
+    /* ---------- main13 ---------- */
+    .main13 {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        gap: 15px;
+        margin: 30px auto;
+    }
+
+    .main13 h5 {
+        font-size: 26px;
+    }
+
+    .main13 .span-box {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .main13 .span-box span {
+        width: calc(50% - 5px);
+        font-size: 15px;
+    }
+
+    /* ---------- main14 (ilova yuklash) ---------- */
+    .main14 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: 30px auto;
+        padding: 0 10px;
+    }
+
+    .main14 .used-left {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+
+    .main14 .used-left .main14-box {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .main14 img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* ---------- main16 ---------- */
+    .main16 {
+        width: 100%;
+        height: auto;
+        transform: none;
+        padding: 0 15px;
+        margin: 10px auto 30px;
+    }
+
+    .main16 .box1 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .main16 .box1 div {
+        width: 100%;
+        height: 150px;
+    }
+
+    .main16 .box1 div p {
+        font-size: 18px;
+    }
+
+    .main16 .box1 div img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* ---------- main17 ---------- */
+    .main17 {
+        height: 420px;
+        padding: 0 20px;
+    }
+
+    .main17 h3 {
+        font-size: 30px;
+    }
+
+    .main17 .main17-btn {
+        width: 100%;
+        max-width: 296px;
+    }
+
+    /* ---------- footer ---------- */
+    footer {
+        height: auto;
+    }
+
+    footer .footer-top {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 15px;
+        align-items: flex-start;
+    }
+
+    footer .footer-top .join {
+        width: 100%;
+        height: auto;
+        gap: 8px;
+    }
+
+    footer .footer-top .join p {
+        font-size: 26px;
+    }
+
+    footer .footer-top .input {
+        width: 100%;
+        height: 65px;
+    }
+
+    footer .footer-top .input input {
+        width: 70%;
+        min-width: 0;
+    }
+
+    footer .footer-orta {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 25px 15px;
+        align-items: start;
+    }
+
+    footer .footer-orta .footer-orta-box,
+    footer .footer-orta .sale {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer-orta .sale {
+        grid-column: 1 / -1;
+    }
+
+    footer .footer-buttom {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+}
+
+/* ===== Juda kichik telefonlar (max 480px) ===== */
+@media (max-width: 480px) {
+    .main .main-box h1 {
+        font-size: 28px;
+    }
+
+    .main2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main16 .box1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .footer-orta {
+        grid-template-columns: 1fr;
+    }
 }
