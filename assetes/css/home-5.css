@@ -1029,3 +1029,46 @@ footer .footer-top .input .footer-btn {
     color: white;
     border-radius: 15px;
 }
+/* ^ footer-orta */
+footer .footer-orta {
+    width: 1430px;
+    height: 460px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-orta .footer-orta-box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .footer-orta .footer-orta-box p {
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .footer-orta .sale {
+    width: 275px;
+    height: 300px;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .footer-orta .sale p {
+    font-size: 20px;
+    font-weight: 600;
+}
+footer .footer-orta .sale .sale-f {
+    width: 200px;
+    height: 40px;
+    border: 1px solid ;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
