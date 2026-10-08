@@ -69,3 +69,14 @@ function updateCarousel1() {
     const moveAmount1 = -hisoblagich1 * box3Width
     main10Box.style.transform = `translateX(${moveAmount1}px)`
 }
+
+// *dark
+const dark = document.querySelector(".dark")
+dark.addEventListener("click", () => {
+    document.body.classList.toggle("darkmod")
+    if (document.body.classList.contains("darkmod")) {
+        dark.textContent = "🌑"
+    } else {
+        dark.textContent = "☀️"
+    }
+})
