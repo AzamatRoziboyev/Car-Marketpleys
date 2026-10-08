@@ -786,4 +786,21 @@
     height: 468px;
     border: 1px solid red;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main12 .main12-box {
+    width: 327px;
+    height: 468px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main12 .main12-box p {
+    font-size: 20px;
+    font-weight: 800;
+}
+.main12 .main12-box small {
+    font-size: 15px;
 }
