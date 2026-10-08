@@ -950,7 +950,7 @@
 .main17 {
     width: 100%;
     height: 648px;
-    margin: 50px auto;
+    margin: auto;
     background-image: url(/assetes/img/home5main17.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -973,4 +973,59 @@
     color: white;
     background-color: transparent;
 
+}
+/* *============ footer */
+footer {
+    width: 100%;
+    height: 750px;
+    border: 5px solid ;
+    margin-bottom: 50px;
+}
+footer .footer-top {
+    width: 1430px;
+    height: 190px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer .footer-top .join {
+    width: 327px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .footer-top .join p {
+    font-size: 35px;
+    font-weight: 600;
+}
+footer .footer-top .join small {
+    font-size: 15px;
+}
+footer .footer-top .input {
+    width: 542px;
+    height: 73px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+footer .footer-top .input input {
+    width: 404px;
+    height: 49px;
+    padding: 0px 20px;
+    border: none;
+}
+footer .footer-top .input .footer-btn {
+    width: 115px;
+    height: 51px;
+    border: none;
+    background-color: #050B20;
+    color: white;
+    border-radius: 15px;
 }
