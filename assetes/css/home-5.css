@@ -30,6 +30,10 @@
     justify-content: center;
     align-items: center;
 }
+.main header .header-left h1 a {
+    color: white;
+    text-decoration: none;
+}
 
 .main header .header-right {
     width: 340px;

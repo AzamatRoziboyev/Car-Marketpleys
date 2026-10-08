@@ -94,6 +94,7 @@
     cursor: pointer;
 }
 
+
 /* * header-right */
 .main header .header-right {
     width: 142px;
@@ -111,6 +112,10 @@
     color: white;
     cursor: pointer;
 
+}
+.main header .header-right .sign-up a {
+    color: white;
+    text-decoration: none;
 }
 
 /* ^ sign-katta  */
